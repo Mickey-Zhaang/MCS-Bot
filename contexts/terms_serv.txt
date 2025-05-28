@@ -1,0 +1,330 @@
+{
+  "login": "Login",
+  "termsOfService": {
+    "versionEffectiveDate": "July 21, 2023",
+    "preamble": [
+      "Thank you for using the Vizcom platform (the “Services”). These Terms of Service (the “Agreement”) explain what rights you have with respect to images and other assets which you might generate with the Service, or prompts you might enter into the Service (the “Assets”), your use of the Services, and other important topics like arbitration. Please read it carefully. Our privacy policy outlines how we handle your data here.",
+      "This Agreement is entered into by Vizcom Inc. and the entity or person agreeing to these terms (the \"Customer,\" “You” or “Your”) and govern the Customer's access to and use of the Services.",
+      "This Agreement is effective when the Customer is presented with this Agreement and proceeds to use the Services (the \"Effective Date\") or to receive or distribute Assets. These terms may be updated and presented again to the Customer from time to time. Continued use of the Services constitutes acceptance of the updated terms. If You do not agree to this Agreement, please stop using the Services.",
+      "Other documents referenced here may also bind Customer’s use of the Services, including the Community Guidelines below."
+    ],
+    "automaticRenewal": "If you subscribe to a Premium Account (defined in Section 2) or other subscriptions we make available to you, then your subscription will be automatically renewed on a monthly, yearly, or any other basis depending on the subscription you select at Vizcom’s then-current subscription fee for the subscribed services unless you opt out of the auto-renewal in accordance with the subscription terms in Section 5 below.",
+    "importantInformation": [
+      "Section 16 of these Terms contains provisions governing how disputes that you and Vizcom have against each other will be resolved, including without limitation, any disputes that arose or were asserted prior to the effective date of the Agreement. Section 16 contains, among other things, an agreement to arbitrate which requires, with limited exceptions, that all disputes between you and Vizcom be resolved by binding and final arbitration. Unless you opt out of the agreement to arbitrate within thirty (30) days of the effective date of the Agreement:",
+      "(I) You and Vizcom will only be permitted to pursue disputes or claims and seek relief against the other party on an individual basis, not as a plaintiff or class member in any class or representative action or proceeding, and each of us waives our right to participate in a class action lawsuit or class-wide arbitration.",
+      "(II) You are waiving your right to pursue disputes or claims and seek relief in a court of law and to have a jury trial."
+    ],
+    "communicationsNotice": "Please be aware that Section 8 of the Agreement below contains your opt-in consent to receive communications from us, including via emails, text messages, calls, and push notifications.",
+    "changesToTheseTerms": "This Agreement is subject to change by Vizcom in its sole discretion at any time. We will post updated Terms on the Site and App and, for material changes, email registered users. Continued use after thirty (30) days constitutes acceptance.",
+    "sections": [
+      {
+        "number": 1,
+        "title": "How the Services Work",
+        "subsections": [
+          {
+            "number": "1.1",
+            "title": "Teams",
+            "content": "Users may create shared, virtual workspaces on the App (“Teams”) and invite other users on the Apps to view and collaborate on content within the Team (“Collaborators”). Users may organize Designs by creating “Projects” and share Projects with Collaborators within their Teams."
+          },
+          {
+            "number": "1.2",
+            "title": "Premium Accounts",
+            "content": "Certain features of the Service, such as additional drawing tools, unlimited image generations, ability to download high-res images, and unlimited Teams, are only available to Premium Accounts (defined below) for additional fees as described in Section 5."
+          },
+          {
+            "number": "1.3",
+            "title": "Beta Services",
+            "content": "Vizcom may, from time to time, offer access to services that are classified as a trial or beta version (“Beta Services”). Access to and use of Beta Services may be subject to additional agreements. Vizcom makes no representations that Beta Services will ever be made generally available and reserves the right to discontinue or modify Beta Services at any time without notice. Beta Services are provided AS IS and WITH ALL FAULTS and may contain bugs, errors, or other defects. Your use of any Beta Services is at your sole risk."
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Registration and Accounts",
+        "subsections": [
+          {
+            "number": "2.1",
+            "title": "Registration and Account Creation",
+            "content": "You may need to register or create an account on the Services (“Account”) and provide certain information about yourself as prompted by the account registration form, including an email address and password. You agree to keep this information current and accurate. A Premium Account is subject to additional fees described in Section 5. Vizcom reserves the right to impose limitations on certain Accounts."
+          },
+          {
+            "number": "2.2",
+            "title": "Third-Party Service",
+            "content": "If you access the Services through a third-party service (“TPS”), you may link your Account with a TPS. By granting access, you allow Vizcom to access, store, and display content from your TPS."
+          },
+          {
+            "number": "2.3",
+            "title": "Account Responsibilities",
+            "content": "You are responsible for maintaining the confidentiality of your Account login information and for all activities under your Account. Notify Vizcom immediately of any unauthorized use."
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Access to the Service",
+        "subsections": [
+          {
+            "number": "3.1",
+            "title": "Access and Use",
+            "content": "Vizcom grants you a non-transferable, non-exclusive, revocable, limited right to access and use the Services for your personal or internal business use."
+          },
+          {
+            "number": "3.2",
+            "title": "Application License",
+            "content": "Vizcom grants you a limited license to download, install, and use a copy of the desktop application on a reasonable number of computers you own or control."
+          },
+          {
+            "number": "3.3",
+            "title": "Certain Restrictions",
+            "content": "You may not commercially exploit, reverse engineer, copy, or sublicense the Services, nor frame any Vizcom Content, except as expressly permitted."
+          },
+          {
+            "number": "3.4",
+            "title": "Modification and Suspension",
+            "content": "Vizcom may modify, suspend, or discontinue the Services at any time without liability."
+          },
+          {
+            "number": "3.5",
+            "title": "No Support or Maintenance; Necessary Equipment",
+            "content": "Vizcom has no obligation to provide support or maintenance. You are responsible for Internet fees and necessary hardware."
+          },
+          {
+            "number": "3.6",
+            "title": "Updates",
+            "content": "Vizcom may require you to accept updates to the App. You may need to update third-party software to continue use."
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Ownership",
+        "content": "All intellectual property rights in the Services and its content are owned by Vizcom or its suppliers. Except for the limited rights expressly granted, no rights are transferred to you."
+      },
+      {
+        "number": 5,
+        "title": "Subscription Terms",
+        "subsections": [
+          {
+            "number": "5.1",
+            "title": "Payment",
+            "content": "You agree to pay all subscription and service fees (“Fees”). All Fees are non-refundable."
+          },
+          {
+            "number": "5.2",
+            "title": "Automatic Renewal",
+            "content": "Subscriptions auto-renew unless canceled at least one (1) day before the renewal date via your Account page."
+          },
+          {
+            "number": "5.3",
+            "title": "Cancellation Period",
+            "content": "EU/UK residents may cancel within 14 days of subscription for a full refund."
+          },
+          {
+            "number": "5.4",
+            "title": "Taxes",
+            "content": "You are responsible for any Sales Tax Vizcom must collect."
+          },
+          {
+            "number": "5.5",
+            "title": "Payment Processor",
+            "content": "Vizcom uses Stripe, Inc. By purchasing, you agree to Stripe’s Privacy Policy and Terms of Use."
+          },
+          {
+            "number": "5.6",
+            "title": "Free Trials and Other Promotions",
+            "content": "Free trials expire at the end of the trial period unless you pay the applicable subscription fee."
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "User Content; Designs",
+        "subsections": [
+          {
+            "number": "6.1",
+            "title": "User Content",
+            "content": "You are solely responsible for content you upload. You represent and warrant you have all rights to grant Vizcom a license."
+          },
+          {
+            "number": "6.2",
+            "title": "Designs",
+            "content": "Free Accounts: Vizcom owns all rights to generated Designs. Premium Accounts: You own all rights to generated Designs."
+          },
+          {
+            "number": "6.3",
+            "title": "License",
+            "content": "Free Accounts grant Vizcom a royalty-free license to use your Content and Designs. Premium Accounts retain full ownership."
+          },
+          {
+            "number": "6.4",
+            "title": "No Obligation to Pre-Screen Content",
+            "content": "Vizcom has no obligation to pre-screen Content but may do so at its discretion."
+          },
+          {
+            "number": "6.5",
+            "title": "Enforcement",
+            "content": "Vizcom may remove or refuse content that violates the Agreement."
+          },
+          {
+            "number": "6.6",
+            "title": "Feedback",
+            "content": "Any feedback you provide is assigned to Vizcom and treated as non-confidential."
+          },
+          {
+            "number": "6.7",
+            "title": "Storage",
+            "content": "Vizcom has no obligation to store your Content. You are responsible for backups."
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "title": "Acceptable Use Policy",
+        "content": "You agree not to use the Services to infringe third-party rights, distribute malware or spam, abuse personal information, disrupt servers, or scrape data, among other prohibited activities."
+      },
+      {
+        "number": 8,
+        "title": "Vizcom Communications",
+        "subsections": [
+          {
+            "number": "8.1",
+            "title": "Generally",
+            "content": "By providing your email, you consent to receiving operational communications from Vizcom."
+          },
+          {
+            "number": "8.2",
+            "title": "Promotional Email Communications",
+            "content": "If you opt in, you may unsubscribe at any time; consent is not required to use the Services."
+          },
+          {
+            "number": "8.3",
+            "title": "Electronic Communications",
+            "content": "Electronic communications satisfy any legal requirement for written notice."
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "title": "Indemnification",
+        "content": "You agree to indemnify and hold harmless Vizcom and its agents from any third-party claim arising from your use of the Services or violation of this Agreement."
+      },
+      {
+        "number": 10,
+        "title": "Third-Party Links, Applications; Other Users and Third Parties",
+        "subsections": [
+          {
+            "number": "10.1",
+            "title": "Third-Party Links, Applications",
+            "content": "Links to third-party sites are provided as a convenience; you use them at your own risk."
+          },
+          {
+            "number": "10.2",
+            "title": "Other Users and Third Parties",
+            "content": "Vizcom is not responsible for interactions or content provided by other users."
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "title": "Disclaimers",
+        "content": "The Services are provided “AS-IS” with all faults. Vizcom disclaims all warranties to the fullest extent permitted by law."
+      },
+      {
+        "number": 12,
+        "title": "Limitation on Liability",
+        "content": "Vizcom’s liability is limited to the greater of fees paid in the prior 12 months or $100. Neither party is liable for indirect or consequential damages."
+      },
+      {
+        "number": 13,
+        "title": "Term and Termination",
+        "content": "Vizcom may suspend or terminate your access at any time. Surviving provisions include Sections 1, 3.3–3.6, and 4–17."
+      },
+      {
+        "number": 14,
+        "title": "Copyright Policy",
+        "content": "Vizcom respects intellectual property and will remove infringing material upon proper notice under 17 U.S.C. § 512(c)."
+      },
+      {
+        "number": 15,
+        "title": "International Users and Provisions",
+        "subsections": [
+          {
+            "number": "15.1",
+            "title": "United Kingdom",
+            "content": "No third-party rights under the Contracts (Rights of Third Parties) Act 1999."
+          },
+          {
+            "number": "15.2",
+            "title": "Germany",
+            "content": "Limitation of liability for simple negligence except for injury or death."
+          }
+        ]
+      },
+      {
+        "number": 16,
+        "title": "Arbitration Clause and Class Action Waiver",
+        "content": "All disputes are subject to binding arbitration under JAMS, with limited exceptions. Includes waiver of jury trial and class actions, batch arbitration, and a 30-day opt-out right."
+      },
+      {
+        "number": 17,
+        "title": "General Provisions",
+        "subsections": [
+          {
+            "number": "17.1",
+            "title": "Independent Contractor; Assignment",
+            "content": "You are an independent contractor. You may not assign this Agreement without Vizcom’s consent."
+          },
+          {
+            "number": "17.2",
+            "title": "Export",
+            "content": "You agree to comply with U.S. export control laws."
+          },
+          {
+            "number": "17.3",
+            "title": "Exclusive Venue and Governing Law",
+            "content": "Litigation permitted only in California courts; governed by California law."
+          },
+          {
+            "number": "17.4",
+            "title": "Disclosures",
+            "content": "California residents may report complaints to the California Department of Consumer Affairs."
+          },
+          {
+            "number": "17.5",
+            "title": "Entire Agreement",
+            "content": "This Agreement constitutes the entire agreement between you and Vizcom regarding the Services."
+          },
+          {
+            "number": "17.6",
+            "title": "Copyright/Trademark Information",
+            "content": "© 2024 Vizcom. All trademarks are owned by Vizcom or third parties."
+          },
+          {
+            "number": "17.7",
+            "title": "Force Majeure",
+            "content": "Vizcom is not liable for delays due to causes outside its control; obligations are suspended during force majeure."
+          },
+          {
+            "number": "17.8",
+            "title": "Choice of Language",
+            "content": "The Agreement is drawn up in English."
+          },
+          {
+            "number": "17.9",
+            "title": "Contact Information",
+            "content": {
+              "address": "95 Third Street 2nd Floor - #7251 San Francisco, CA 94103",
+              "telephone": "248-872-3378",
+              "email": "hello@vizcom.ai"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact us",
+    "email": "hello@vizcom.ai"
+  },
+  "copyright": "© 2025 Vizcom Technologies, Inc."
+}

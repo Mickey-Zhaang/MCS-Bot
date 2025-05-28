@@ -1,0 +1,30 @@
+"faqs": [
+    {
+      "question": "Can I use Vizcom for free?",
+      "answer": "Yes of course! Our Starter plan is completely free, no credit card required. You’ll get access to unlimited files, one team, two editors, and unlimited viewers. This is a great plan to explore Vizcom with."
+    },
+    {
+      "question": "What payment methods can I use?",
+      "answer": "We accept all major credit and debit cards."
+    },
+    {
+      "question": "What are the different roles and their associated access? Which roles do I pay for?",
+      "answer": "You pay for the number of admins and editors in your Vizcom workspace. Admins have full edit access to workspace settings and files. Editors have edit access to files but cannot manage workspace settings. Viewers have view-only access to the workspace."
+    },
+    {
+      "question": "How does team billing work?",
+      "answer": "Your first team is always free. On the free plan, you can invite up to one extra editor to begin collaborating right away. To invite additional editors or create more teams, you’ll need to upgrade to one of our paid plans. You will be billed for each new admin and editor you invite."
+    },
+    {
+      "question": "Can I change my subscription from monthly to yearly?",
+      "answer": "At this time, we do not offer annual payment plans."
+    },
+    {
+      "question": "Do I own the content I produce in Vizcom?",
+      "answer": "For free users, while we may use generated images to improve our services, we do not claim ownership over your designs, concepts, or original ideas—you retain full IP rights. For paid users, your images and designs remain entirely private and are used only to provide our services."
+    },
+    {
+      "question": "Does Vizcom use my data to train AI models?",
+      "answer": "Vizcom does not access, analyze, or utilize data from user projects or sketches for AI/ML training—except that free-tier data may be leveraged solely to enhance our services."
+    }
+  ]

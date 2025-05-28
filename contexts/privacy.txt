@@ -1,0 +1,80 @@
+{
+  "page": {
+    "title": "Trust in Every Design",
+    "intro": "At Vizcom, we prioritize security and privacy in the industrial design process. Our cloud-native platform uses advanced security measures to safeguard your designs at every stage."
+  },
+  "main_content": [
+    {
+      "title": "A high bar for privacy and security",
+      "content": "Our security measures exceed industry standards for data protection and security.",
+      "linkText": "Read More"
+    },
+    {
+      "title": "Modern, Cloud-Native Environments",
+      "content": "Vizcom's infrastructure is cloud-native, allowing our security team to leverage the unparalleled scale and flexibility of the cloud. By building on top of trusted cloud vendors like AWS, Vizcom users benefit from an enterprise-grade network architected to protect their information, backed by the deep expertise of Vizcom's engineering-focused and always-on security team."
+    },
+    {
+      "title": "Security Measures",
+      "subsections": [
+        {
+          "subtitle": "Data Protection",
+          "content": "Vizcom employs industry-leading encryption for all data. Servers in our Virtual Private Clouds (VPCs) prevent unauthorized access. Paid customers retain full ownership of their data."
+        },
+        {
+          "subtitle": "Identity Management",
+          "content": "With Enterprise plan, manage access with any identity provider that supports SAML and SCIM, including Azure AD, Okta, OneLogin, and more. Securely deploy Vizcom across your entire organization."
+        },
+        {
+          "subtitle": "Service Reliability",
+          "content": "Our service is available 24/7/365 across multiple data centers. Real-time status updates and built-in version history ensure uninterrupted access and transparency."
+        }
+      ]
+    },
+    {
+      "devotion": [
+        {
+          "title": "Your privacy rights are important to us",
+          "content": "Vizcom is committed to the highest standards of privacy and data protection. We adhere to stringent global regulations and best practices to ensure that all customer and employee personal information is handled with the utmost care and confidentiality."
+        },
+        {
+          "title": "Your data belongs to you",
+          "content": "Vizcom is committed to keeping your information secure and private. Your content is important to you and we take the responsibility of protecting it seriously. We’ve defined roles and responsibilities in our Shared responsibility security model to help you understand your responsibilities."
+        },
+        {
+          "title": "Privacy Policy Details",
+          "content": "The details on what data we collect, how we collect it, what we do with it are available in our Privacy Policy."
+        }
+      ]
+    }
+  ],
+  "privacy_faq": [
+    {
+      "question": "What are the security benefits of a cloud-native infrastructure?",
+      "answer": "Cloud-native environments provide a number of security benefits including greater visibility and control over the access and usage of applications, reduced attack surface due to ephemeral compute services of cloud applications, and ensured data backup by cloud providers. Vizcom customers also benefit from our use of industry-standard cloud resources and the output of the cloud security community is leveraged to better protect user data."
+    },
+    {
+      "question": "How do I report a potential security vulnerability in Vizcom products?",
+      "answer": "Anyone can report security issues by contacting our support team. We also have a bug bounty program for security researchers, and we allow customers to conduct their own penetration test in alignment with our program rules (e.g. test your own data, report any findings to us first)."
+    },
+    {
+      "question": "What personal data does Vizcom access, store, or process from customers?",
+      "answer": "To provide our services, Vizcom collects limited personal information about users, including name and email. You retain sole discretion over what you include in your designs on the Vizcom Platform. Vizcom also complies with best practices around data protection. More information is available in our privacy policy."
+    },
+    {
+      "question": "Does Vizcom have any rights to my data?",
+      "answer": "If you are a paying user, all data that you upload to or develop on the Vizcom platform remains owned by you and is treated as your confidential information. Free users do not have exclusive rights to their data."
+    },
+    {
+      "question": "What are the license terms of my generated images?",
+      "answer": "Vizcom does not own your work. The designs you create using our platform, the ideas you visualize, are 100% owned by you. This applies to both free and paid users. We also want to make clear that your data is completely private and will never be shared with a third party. Whether you're a free user or a paid user, only you and the collaborators you invite can view or access your creations."
+    },
+    {
+      "question": "Benefits of Free Users?",
+      "answer": "For free users, while we do use the images generated on our platform to improve our services, we do not claim ownership over your designs, concepts, or original ideas. You retain full ownership of your intellectual property."
+    },
+    {
+      "question": "Benefits of Paid Users?",
+      "answer": "For paid users, your images and designs remain entirely private and are not used by Vizcom in any capacity. Every design, every concept, every image you create or upload to Vizcom is yours and kept private."
+    }
+  ]
+}

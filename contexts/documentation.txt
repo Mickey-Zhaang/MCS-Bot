@@ -1,0 +1,349 @@
+{
+    [
+    "page 1": "Getting started with Render mode",
+    "content": {
+        "description": "In this tutorial, you will learn how to go from sketch to render in just a few seconds with a simple sketch and a text description.",
+        "steps": [
+            {
+            "step": 1,
+            "title": "Create a new file",
+            "instructions": [
+                "Choose which layout you want to start your project with.",
+                "If starting in the drawing studio, you can instantly begin sketching on the canvas.",
+                "If you already have a sketch, choose the import option to explore on the infinite canvas."
+            ]
+            },
+            {
+            "step": 2,
+            "title": "Set up the canvas",
+            "instructions": [
+                "Create the canvas and start sketching, or upload a previous sketch.",
+                "Learn more about how to import your sketches in the documentation.",
+                "Learn how to draw inside Vizcom in the documentation."
+            ]
+            },
+            {
+            "step": 3,
+            "title": "Enter a text prompt",
+            "instructions": [
+                "Open the right-toolbar dropdown (Create tab) and ensure you’re in Render mode.",
+                "Render mode is required for any line drawing or sketch you plan to render with a prompt."
+            ]
+            },
+            {
+            "step": 4,
+            "title": "Select a Palette",
+            "instructions": [
+                "Under Style, choose a Palette to define the overall aesthetic of the generated rendering."
+            ]
+            },
+            {
+            "step": 5,
+            "title": "Adjust Drawing Influence",
+            "instructions": [
+                "Use the Drawing Influence slider to control how much the original sketch affects the render."
+            ]
+            },
+            {
+            "step": 6,
+            "title": "Generate the rendering",
+            "instructions": [
+                "Click the Generate button and wait a few seconds.",
+                "A full-size preview will appear, with a selector tab."
+            ]
+            },
+            {
+            "step": 7,
+            "title": "Save or regenerate",
+            "instructions": [
+                "Select your favorite render and click “Add” to save it as a layer, or click “Regenerate” to try again.",
+                "Unsaved results will remain in the History tab, where you can restore them later.",
+                "Close the preview by clicking the “X” icon—Layers and Drawing tools will reactivate."
+            ]
+            },
+            {
+            "step": 8,
+            "title": "Export your results",
+            "instructions": [
+                "Click the export icon in the top-right corner.",
+                "Export what’s displayed on the canvas as a PNG."
+            ],
+            "note": "Rendering is iterative—hide previous layers on the canvas if you want to keep generating from your original sketch."
+            },
+            "refinement": {
+            "title": "Refine on a rendering",
+            "description": "After exporting or adding layers, continue iterating by refining your render in Render mode."
+            }
+        ],
+    },
+    
+    "page 2": "Getting started with Refine mode",
+    "content": {
+        "description": "Enhance the quality and details of a previously created rendering. Refining is iterative—feel free to make multiple passes to increase detail. Refine mode preserves your image’s colors while adding finer detail and variation at low drawing influence levels.",
+        "prerequisite": "Have a base rendering created in Render mode",
+        "steps": [
+        {
+            "step": 1,
+            "title": "Select Refine mode",
+            "instructions": [
+            "Open the Create tab and choose Refine mode, which is designed for polishing existing renderings.",
+            "You can keep your original prompt or tweak it to push the image in a new direction."
+            ]
+        },
+        {
+            "step": 2,
+            "title": "Generate your first refinement",
+            "instructions": [
+            "Click Generate to produce a version with more realistic detail."
+            ]
+        },
+        {
+            "step": 3,
+            "title": "Iterate",
+            "instructions": [
+            "Continue hitting Generate on top of the previous result until you’re satisfied."
+            ]
+        },
+        {
+            "step": 4,
+            "title": "Use drawing tools",
+            "instructions": [
+            "Apply brushes or selections directly on your render to guide the refinement.",
+            "This lets you make rough edits that the AI will refine into cohesive visuals."
+            ]
+        },
+        {
+            "step": 5,
+            "title": "Change Style",
+            "instructions": [
+            "Choose a different Style for your refinement pass to explore alternate aesthetics.",
+            "For example, 'Auto Exterior' will emphasize clean, futuristic surfaces rather than organic wrinkles."
+            ]
+        },
+        {
+            "step": 6,
+            "title": "Inpainting",
+            "instructions": [
+            "Mask or paint over specific areas to refine just those regions.",
+            "Refine mode will use the current pixels on the canvas to drive localized enhancements."
+            ]
+        }
+        ],
+        "title": "Importing sketches",
+        "description": "Vizcom lets you bring in existing sketches (JPG/PNG) from your device or other apps, or import directly onto the infinite Workbench canvas.",
+        "ways": [
+        {
+            "way": 1,
+            "title": "Upload from Studio",
+            "instructions": [
+            "Open or create a new file in the Vizcom app.",
+            "Click the “Upload Image” option instead of choosing a base canvas—this ensures the canvas matches your image size."
+            ]
+        },
+        {
+            "way": 2,
+            "title": "Drag & Drop",
+            "instructions": [
+            "Drag and drop one or more JPG/PNG images directly onto the canvas at any time."
+            ]
+        },
+        {
+            "way": 3,
+            "title": "Insert menu",
+            "instructions": [
+            "Click the Insert icon in the toolbar and select “Import Image.”"
+            ]
+        },
+        {
+            "way": 4,
+            "title": "Copy & Paste",
+            "instructions": [
+            "Copy images from other applications and paste into Vizcom using Ctrl+C/Ctrl+V (Cmd+C/Cmd+V on macOS)."
+            ]
+        },
+        {
+            "way": 5,
+            "title": "Workbench import",
+            "instructions": [
+            "On the infinite Workbench canvas, drop sketches to import them directly into your workspace."
+            ]
+        }
+        ],
+    },
+    
+    "page 3": "Drawing in Vizcom",
+    "content": {
+        "intro": "To better improve the control of the renderings, you can draw inside the application and see your results come to life. This allows you to make changes on the fly and have a collaborative experience with Vizcom AI.",
+        "tools": [
+            {
+            "name": "Brush",
+            "shortcut": "B",
+            "description": "Starts as a line-drawing tool. You can change its settings via the top toolbar or by right-clicking on the canvas.",
+            "modifiers": [
+                {
+                "action": "Hold Shift",
+                "effect": "Constrain lines to horizontal, vertical, or 45° diagonal"
+                }
+            ],
+            "subtools": [
+                {
+                "name": "Paint bucket",
+                "description": "Fills in line work with the selected color; found under the Brush tool."
+                }
+            ]
+            },
+            {
+            "name": "Eraser",
+            "shortcut": "E",
+            "description": "Functions like the Brush but removes pixels instead of adding them."
+            },
+            {
+            "name": "Box",
+            "shortcut": "I",
+            "description": "Draws rectangular shapes."
+            },
+            {
+            "name": "Ellipse",
+            "shortcut": "O",
+            "description": "Draws elliptical shapes."
+            },
+            {
+            "name": "Line",
+            "shortcut": "L",
+            "description": "Draws straight lines."
+            },
+            {
+            "name": "Move",
+            "shortcut": "M",
+            "description": "Scale, adjust, and rotate the selected layer. Right-click on canvas to pick which layer to transform."
+            },
+            {
+            "name": "Skew",
+            "shortcut": "T",
+            "description": "Skews layers to adjust proportions."
+            },
+            {
+            "name": "Symmetry",
+            "shortcut": null,
+            "description": "Mirrors strokes across a central axis for perfectly balanced designs."
+            },
+            {
+            "name": "Selection",
+            "shortcut": "G",
+            "options": [
+                "Lasso",
+                "Brush-based",
+                "Bezier",
+                "Automatic"
+            ],
+            "description": "Choose from multiple selection modes to isolate parts of your canvas."
+            }
+        ],
+    },
+    
+    "page 4": "Editing specific areas - Selection tools",
+    "content": {
+        "intro": "When you’re developing a product, in the design process you will eventually reach a place where you have to fixate most of the design and start working on some specific details. This is exactly what Inpainting [G] is suitable for.",
+        "howToUse": "How to use Selection tools",
+        "steps": [
+            {
+            "step": "Step 1",
+            "instruction": "Have a rendering or any image on your canvas."
+            },
+            {
+            "step": "Step 2",
+            "instruction": "Find the Selection tools at the top toolbar or hit [G] on the keyboard.\nSelect whichever selection method you want to use.",
+            "tools": [
+                "Lasso selection",
+                "Brush selection",
+                "Bezier selection",
+                "Auto selection"
+            ]
+            },
+            {
+            "step": "Step 3",
+            "instruction": "Make the selection on the canvas"
+            },
+            {
+            "step": "Step 4",
+            "instruction": "Write a prompt specifically for the selected area!",
+            "substeps": [
+                "Set the mode either to Render a new part, or Refine on the existing one",
+                "Describe with the prompt only the selected area"
+            ]
+            },
+            {
+            "step": "Step 5",
+            "instruction": "Set up the Style and Influence",
+            "details": [
+                "For making accurate and photorealistic changes , the Vizcom General is the recommended style to use the selection tools with.",
+                "Keep the influence high if you want to re-render the selected area with closer to the current design or keep it low to give it more dependency on your prompt."
+            ]
+            },
+            {
+            "step": "Step 6",
+            "instruction": "Hit Generate!",
+            "details": [
+                "Keep generating and experiment with different settings until you satisfied with the results!"
+            ]
+            }
+        ],
+    },
+    
+    "page 5": "Workbench - infinite canvas view",
+    "content": {
+        "description": "Workbench is a collaborative, infinite whiteboard experience where you can work in real-time with your team members. Use Workbench to create multiple drawings at once, present to your team, and annotate design decisions. This is a unique space to create alongside others and make sure important design details are not lost during the process.",
+        "subsections": [
+            {
+            "title": "Navigating the Canvas",
+            "items": [
+                "Move Around: Press the space bar and drag.",
+                "Zoom In/Out: Use pinch gestures on trackpads/touch devices, hold Ctrl and scroll, or use the zoom controls in the lower right corner."
+            ]
+            },
+            {
+            "title": "Image Interaction",
+            "items": [
+                "Click Image Options: Edit, download HD copy, or begin creation.",
+                "Three Dots Menu: Arrange or delete images."
+            ]
+            },
+            {
+            "title": "Creating and Refining Images",
+            "items": [
+                "Add Prompt Box: Click 'Create' to add a prompt box linked to an image.",
+                "Select Mode: Choose between Render or Refine.",
+                "Set Options: Select render style, drawing influence, and type the prompt.",
+                "Generate Images: Click 'Generate' to create images. Multiple clicks generate multiple images.",
+                "Explore Variations: Add multiple prompt boxes for different styles or prompts.",
+                "Duplicate/Delete: Use the three dots on the create panel to manage prompt boxes."
+            ]
+            },
+            {
+            "title": "Managing Images on the Canvas",
+            "items": [
+                "Move Images: Click and drag.",
+                "Scale Images: Adjust by dragging the bounding box.",
+                "Insert Other Images: Click 'Insert' at the top to place a placeholder. Drag the icon to specify location."
+            ]
+            },
+            {
+            "title": "Linking and Sketching",
+            "items": [
+                "Insert Prompt Box: Link to an image by clicking the plus button and dragging a line.",
+                "Double Click to Edit: Enter Brush Studio for advanced functions.",
+                "Return to Workbench: Click the Workbench icon."
+            ]
+            },
+            {
+            "title": "Annotation and Collaboration",
+            "items": [
+                "Text Tool: Annotate projects for labels and collaboration.",
+                "Team Collaboration: Work on projects simultaneously with team members. Follow their viewpoint by clicking initials in the top right."
+            ]
+            }
+        ],
+    },
+    
+    ]
+}

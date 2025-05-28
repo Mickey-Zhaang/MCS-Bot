@@ -1,0 +1,84 @@
+{
+  "pageTitle": "Pricing",
+  "pageDescription": "Vizcom is priced to bring value to teams of all sizes. Accelerate your sketch-to-shelf design process today.",
+  "plans": [
+    {
+      "name": "Starter",
+      "price": 0,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "tagline": "Get started for free",
+      "features": [
+        "Basic AI Creation Tools",
+        "Standard Render Speed",
+        "Community Support"
+      ]
+    },
+    {
+      "name": "Professional",
+      "price": 40,
+      "currency": "USD",
+      "billingCycle": "annually",
+      "discount": "20%",
+      "tagline": "Perfect for individual professionals looking for the extra features",
+      "purchaseOptions": [
+        "Annually",
+        "Monthly"
+      ],
+      "features": [
+        "Everything in Starter, plus:",
+        "Full Design Privacy",
+        "Fast Renders",
+        "Custom Palettes",
+        "3D Model Generation (50 per month)",
+        "Video Generation (10 per month)",
+        "Live Render (5 hours per month)",
+        "Priority Support"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price": null,
+      "currency": "USD",
+      "billingCycle": null,
+      "tagline": "Made for teams and organizations looking to design at scale",
+      "contact": "sales",
+      "features": [
+        "Everything in Professional, plus:",
+        "Unlimited Fastest Renders",
+        "Unlimited Seats & Teams",
+        "Concierge AI Model Training",
+        "Higher Usage Limits",
+        "Unlimited Live Render Usage",
+        "Advanced Export Options",
+        "Dedicated Onboarding",
+        "Training Sessions",
+        "Centralized Billing",
+        "Audit and Access Logs",
+        "Single Sign-On (SSO)",
+        "Dedicated Support"
+      ],
+      "advanced_security": [
+        "Centralized administration for admins": "Manage users, teams, billing, and shared resources across your company from a single admin dashboard.",
+        "Secure access and onboarding": "Deploy Vizcom company-wide with confidence via SAML SSO, SCIM provisioning, domain capture, and network access controls",
+        "Granular controls and greater visibility": "Fine-tune settings to meet global and group-specific needs and get insights into activity happening across your company"
+      ],
+      "additional_notes": "With Enterprise plan, manage access with any identity provider that supports SAML and SCIM, including Azure AD, Okta, OneLogin, and more. Securely deploy Vizcom across your entire organization. Get a version of Vizcom exclusively trained on your design history and assets to rapidly iterate concepts that embody your brand's unique aesthetic and style."
+    }
+  ],
+  "educationProgram": {
+    "title": "Vizcom for Education",
+    "description": "Join the Vizcom EDU Program, perfect for innovative educators and students. Students and Educators design for free!",
+    "benefits": [
+      "Free Vizcom Professional subscription",
+      "Student Ambassador opportunities",
+      "Exclusive community access"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "eligibility": "For qualified educators and students",
+    "for students": "Unlock advanced features for free, build industry- relevant skills, and enhance your portfolio with Vizcom’s design tools. Please sign up with your school email.",
+    "for educators": "Equip your students with the tools they need to prepare for the future of the design industry. Unlock free access to Vizcom’s Pro account by completing verification.",
+  },
+  
+}
