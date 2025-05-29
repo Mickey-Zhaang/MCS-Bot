@@ -13,16 +13,17 @@ class NormData:
     Fields:
         - data_id: (str) ✓ -- unique so bot can find
         - sender: (str) ✓
-        - subject: (str) ?
+        - subject: (str) ✓
         - origin: (str) ✓
         - body: (str) ✓
         - all_messages: (list) ✓
+        - is_q: (bool) ✓
         - type_of_q: (str) ✓
         - massive_html: (bool) ✓ -- If BeatifulSoup thinks this is not relevant
         - closed: (bool) ✓ -- Basically finished convo
     """
 
-    def __init__(self, data_id, sender, subject, origin, body, type_of_q="", closed=False, massive_html=False, all_messages=[]):
+    def __init__(self, data_id, sender, subject, origin, body, is_q, type_of_q="", closed=False, massive_html=False, all_messages=[]):
         """
         __init__
         """
@@ -46,6 +47,7 @@ class NormData:
         self.all_messages = all_messages
 
         # for custom labeling
+        self.is_q = is_q
         self.type_of_q = type_of_q
 
         # run through Soups
