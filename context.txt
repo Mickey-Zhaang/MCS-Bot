@@ -1,0 +1,1987 @@
+context_data = {
+    "documentation": {
+        "page 1": {
+            "name": "Render Mode",
+            "reference link": "https://docs.vizcom.ai/render-mode",
+            "content": {
+                "description": "In this tutorial, you will learn how to go from sketch to render in just a few seconds with a simple sketch and a text description",
+                "steps": {
+                    "step 1": {
+                        "name": "Create a new file",
+                        "instructions": "Choose which layout you want to start your project with. If starting in the drawing studio, you can instantly begin sketching on the canvas. If you already have a sketch, choose the import option to explore on the infinite canvas."
+                    },
+                    "step 2": {
+                        "name": "Set up the canvas",
+                        "instructions": "Create the canvas and start sketching, or upload a previous sketch. Learn more about how to import your sketches in the documentation. Learn how to draw inside Vizcom in the documentation."
+                    },
+                    "step 3": {
+                        "name": "Enter a text prompt",
+                        "instructions": "Open the right-toolbar dropdown (Create tab) and ensure you’re in Render mode. Render mode is required for any line drawing or sketch you plan to render with a prompt."
+                    },
+                    "step 4": {
+                        "name": "Select a Palette",
+                        "instructions": "Under Style, choose a Palette to define the overall aesthetic of the generated rendering."
+                    },
+                    "step 5": {
+                        "name": "Adjust Drawing Influence",
+                        "instructions": "Use the Drawing Influence slider to control how much the original sketch affects the render."
+                    },
+                    "step 6": {
+                        "name": "Generate the rendering",
+                        "instructions": "Click the Generate button and wait a few seconds. A full-size preview will appear, with a selector tab."
+                    },
+                    "step 7": {
+                        "name": "Save or regenerate",
+                        "instructions": "Select your favorite render and click “Add” to save it as a layer, or click “Regenerate” to try again. Unsaved results will remain in the History tab, where you can restore them later. Close the preview by clicking the “X” icon—Layers and Drawing tools will reactivate."
+                    },
+                    "step 8": {
+                        "name": "Export your results",
+                        "instructions": "Click the export icon in the top-right corner. Export what’s displayed on the canvas as a PNG.",
+                        "note": "Rendering is iterative—hide previous layers on the canvas if you want to keep generating from your original sketch."
+                    }
+                },
+                "tips for refinement": {
+                    "title": "Refine on a rendering",
+                    "description": "After exporting or adding layers, continue iterating by refining your render in Render mode."
+                }
+            }
+        },
+        
+        "page 2": {
+            "name": "Refine Mode",
+            "reference link": "https://docs.vizcom.ai/refine-mode",
+            "content": {
+                "description": "Enhance the quality and details of a previously created rendering. Refining is iterative—feel free to make multiple passes to increase detail. Refine mode preserves your image’s colors while adding finer detail and variation at low drawing influence levels.",
+                "prerequisite": "Have a base rendering created in Render mode",
+                "steps": {
+                    "step 1": {
+                        "name": "Select Refine mode",
+                        "instructions": "Open the Create tab and choose Refine mode, which is designed for polishing existing renderings. You can keep your original prompt or tweak it to push the image in a new direction."
+                    },
+                    "step 2": {
+                        "name": "Generate your first refinement",
+                        "instructions": "Click Generate to produce a version with more realistic detail."
+                    },
+                    "step 3": {
+                        "name": "Iterate",
+                        "instructions": "Continue hitting Generate on top of the previous result until you’re satisfied."
+                    },
+                    "step 4": {
+                        "name": "Use drawing tools",
+                        "instructions": "Apply brushes or selections directly on your render to guide the refinement. This lets you make rough edits that the AI will refine into cohesive visuals."
+                    },
+                    "step 5": {
+                        "name": "Change Style",
+                        "instructions": "Choose a different Style for your refinement pass to explore alternate aesthetics. For example, 'Auto Exterior' will emphasize clean, futuristic surfaces rather than organic wrinkles."
+                    },
+                    "step 6": {
+                        "name": "Inpainting",
+                        "instructions": "Mask or paint over specific areas to refine just those regions. Refine mode will use the current pixels on the canvas to drive localized enhancements."
+                    }
+                }
+            }
+        },
+        
+        "page 3": {
+            "name": "Importing sketches",
+            "reference link": "https://docs.vizcom.ai/importing-sketches",
+            "content": {
+                "description": "Vizcom lets you bring in existing sketches (JPG/PNG) from your device or other apps, or import directly onto the infinite Workbench canvas.",
+                "methods": {
+                    "way 1": {
+                        "name": "Upload from Studio",
+                        "instructions": "Open or create a new file in the Vizcom app. Click the “Upload Image” option instead of choosing a base canvas—this ensures the canvas matches your image size."
+                    },
+                    "way 2": {
+                        "name": "Drag & Drop",
+                        "instructions": "Drag and drop one or more JPG/PNG images directly onto the canvas at any time."
+                    },
+                    "way 3": {
+                        "name": "Insert menu",
+                        "instructions": "Click the Insert icon in the toolbar and select “Import Image.”"
+                    },
+                    "way 4": {
+                        "name": "Copy & Paste",
+                        "instructions": "Copy images from other applications and paste into Vizcom using Ctrl+C/Ctrl+V (Cmd+C/Cmd+V on macOS)."
+                    },
+                    "way 5": {
+                        "name": "Workbench import",
+                        "instructions": "On the infinite Workbench canvas, drop sketches to import them directly into your workspace."
+                    }
+                }
+            }
+        },
+        
+        "page 4": {
+            "name": "Drawing tools",
+            "reference link": "https://docs.vizcom.ai/drawing-in-vizcom ",
+            "content": {
+                "intro": "To better improve the control of the renderings, you can draw inside the application and see your results come to life. This allows you to make changes on the fly and have a collaborative experience with Vizcom AI.",
+                "tools": {
+                    "tool 1": {
+                        "name": "Brush",
+                        "shortcut": "B",
+                        "description": "Starts as a line-drawing tool. You can change its settings via the top toolbar or by right-clicking on the canvas.",
+                        "modifiers": {
+                            "modifier 1": {
+                                "action": "Hold Shift",
+                                "effect": "Constrain lines to horizontal, vertical, or 45° diagonal"
+                            }
+                        },
+                        "subtools": {
+                            "subtool 1": {
+                                "name": "Paint bucket",
+                                "description": "Fills in line work with the selected color; found under the Brush tool."
+                            }
+                        }
+                    },
+                    "tool 2": {
+                        "name": "Eraser",
+                        "shortcut": "E",
+                        "description": "Functions like the Brush but removes pixels instead of adding them."
+                    },
+                    "tool 3": {
+                        "name": "Box",
+                        "shortcut": "I",
+                        "description": "Draws rectangular shapes."
+                    },
+                    "tool 4": {
+                        "name": "Ellipse",
+                        "shortcut": "O",
+                        "description": "Draws elliptical shapes."
+                    },
+                    "tool 5": {
+                        "name": "Line",
+                        "shortcut": "L",
+                        "description": "Draws straight lines."
+                    },
+                    "tool 6": {
+                        "name": "Move",
+                        "shortcut": "M",
+                        "description": "Scale, adjust, and rotate the selected layer. Right-click on canvas to pick which layer to transform."
+                    },
+                    "tool 7": {
+                        "name": "Skew",
+                        "shortcut": "T",
+                        "description": "Skews layers to adjust proportions."
+                    },
+                    "tool 8": {
+                        "name": "Symmetry",
+                        "shortcut": None,
+                        "description": "Mirrors strokes across a central axis for perfectly balanced designs."
+                    },
+                    "tool 9": {
+                        "name": "Selection",
+                        "shortcut": "G",
+                        "options": ["Lasso", "Brush-based", "Bezier", "Automatic"],
+                        "description": "Choose from multiple selection modes to isolate parts of your canvas."
+                    }
+                }
+            }
+        },
+        
+        "page 5": {
+            "name": "Editing specific areas - Selection Tools",
+            "reference link": "https://docs.vizcom.ai/inpainting",
+            "content": {
+                "intro": "When you’re developing a product, in the design process you will eventually reach a place where you have to fixate most of the design and start working on some specific details. This is exactly what Inpainting [G] is suitable for.",
+                "how to use": "How to use Selection tools",
+                "steps": {
+                    "step 1": {
+                        "instruction": "Have a rendering or any image on your canvas."
+                    },
+                    "step 2": {
+                        "instruction": "Find the Selection tools at the top toolbar or hit [G] on the keyboard. Select whichever selection method you want to use.",
+                        "tools": [
+                            "Lasso selection",
+                            "Brush selection",
+                            "Bezier selection",
+                            "Auto selection"
+                        ]
+                    },
+                    "step 3": {
+                        "instruction": "Make the selection on the canvas"
+                    },
+                    "step 4": {
+                        "instruction": "Write a prompt specifically for the selected area!",
+                        "substeps": [
+                            "Set the mode either to Render a new part, or Refine on the existing one",
+                            "Describe with the prompt only the selected area"
+                        ]
+                    },
+                    "step 5": {
+                        "instruction": "Set up the Style and Influence",
+                        "details": [
+                            "For making accurate and photorealistic changes, the Vizcom General is the recommended style to use the selection tools with.",
+                            "Keep the influence high if you want to re-render the selected area close to the current design or keep it low to give it more dependency on your prompt."
+                        ]
+                    },
+                    "step 6": {
+                        "instruction": "Hit Generate!",
+                        "details": [
+                            "Keep generating and experiment with different settings until you’re satisfied with the results!"
+                        ]
+                    }
+                }
+            }
+        },
+        
+        "page 6": {
+            "name": "Workbench Navigation",
+            "reference link": "https://docs.vizcom.ai/workbench",
+            "content": {
+                "description": "Workbench is a collaborative, infinite whiteboard experience where you can work in real-time with your team members. Use Workbench to create multiple drawings at once, present to your team, and annotate design decisions. This is a unique space to create alongside others and make sure important design details are not lost during the process.",
+                "subsections": [
+                    {
+                        "title": "Navigating the Canvas",
+                        "how to": [
+                            "Move Around: Press the space bar and drag.",
+                            "Zoom In/Out: Use pinch gestures on trackpads/touch devices, hold Ctrl and scroll, or use the zoom controls in the lower right corner."
+                        ]
+                    },
+                    {
+                        "title": "Image Interaction",
+                        "info": [
+                            "Click Image Options: Edit, download HD copy, or begin creation.",
+                            "Three Dots Menu: Arrange or delete images."
+                        ]
+                    },
+                    {
+                        "title": "Creating and Refining Images",
+                        "info": [
+                            "Add Prompt Box: Click 'Create' to add a prompt box linked to an image.",
+                            "Select Mode: Choose between Render or Refine.",
+                            "Set Options: Select render style, drawing influence, and type the prompt.",
+                            "Generate Images: Click 'Generate' to create images. Multiple clicks generate multiple images.",
+                            "Explore Variations: Add multiple prompt boxes for different styles or prompts.",
+                            "Duplicate/Delete: Use the three dots on the create panel to manage prompt boxes."
+                        ]
+                    },
+                    {
+                        "title": "Managing Images on the Canvas",
+                        "info": [
+                        "Move Images: Click and drag.",
+                        "Scale Images: Adjust by dragging the bounding box.",
+                        "Insert Other Images: Click 'Insert' at the top to place a placeholder. Drag the icon to specify location."
+                        ]
+                    },
+                    {
+                        "title": "Linking and Sketching",
+                        "info": [
+                            "Insert Prompt Box: Link to an image by clicking the plus button and dragging a line.",
+                            "Double Click to Edit: Enter Brush Studio for advanced functions.",
+                            "Return to Workbench: Click the Workbench icon."
+                        ]
+                    },
+                    {
+                        "title": "Annotation and Collaboration",
+                        "info": [
+                            "Text Tool: Annotate projects for labels and collaboration.",
+                            "Team Collaboration: Work on projects simultaneously with team members. Follow their viewpoint by clicking initials in the top right."
+                        ]
+                    }
+                ]
+            }
+        },
+        
+        "page 7": {
+            "name": "File Sharing",
+            "reference link": "https://docs.vizcom.ai/file-sharing",
+            "content": {
+                "description": "Share and collaborate on files with others by quickly copying the file link. Feel secure with specific access and permissions settings.",
+                "subsections": [
+                    {
+                        "title": "Share files",
+                        "info": [
+                            "Share files with others by sharing a link."
+                        ]
+                    },
+                    {
+                        "title": "Share a link",
+                        "info": [
+                            "Each file has a unique URL. Copy this link and send it to collaborators."
+                        ]
+                    },
+                    {
+                        "title": "Copy link",
+                        "info": [
+                            "Click Copy link in the share modal to add the link to your clipboard."
+                        ]
+                    },
+                    {
+                        "title": "Link from workspace",
+                        "info": [
+                            "You can also link directly to a file from within the workspace by clicking the … menu on a file and navigating to Copy link."
+                        ]
+                    }
+                ],
+                "note": "👋 Note: If you are editing a sketch block in 2D Studio and click Share, the link will take people directly to 2D Studio. If you are creating in Workbench and you click Share, the link will take people to Workbench.",
+                "access": {
+                    "title": "Set file access",
+                    "description": "Files have access levels. Access determines who can access the file:",
+                    "levels": [
+                        "Anyone with link: Anyone, even those outside of your workspace, will be able to access this file. A person’s role type in your workspace determines what level of permissions they have per file. Anyone who accesses the file from within your workspace will adopt the role permissions they have in the workspace. Anyone who accesses the file from outside of your workspace will have view-only access."
+                    ],
+                    "scenarios": [
+                        {
+                        "title": "Scenario 1",
+                        "description": "John is an editor in your workspace. You copy a file link with ‘anyone with link’ access settings. John uses this link to access your file. Because John is an editor in your workspace, he can edit your file."
+                        },
+                        {
+                        "title": "Scenario 2",
+                        "description": "Sarah is not in your workspace and has never used Vizcom before. You send her a link to your file with access set to ‘anyone with a link’. Sarah can only view your file. She cannot make any edits. If you would like Sarah to make edits, you can invite her to your workspace and set her role to ‘editor’."
+                        }
+                    ]
+                }
+            }
+        },
+        
+        "Page 8": {
+            "name": "History",
+            "reference link": "https://docs.vizcom.ai/history",
+            "content": {
+                "description": "In the history you can find and restore all the renderings you ever created in the particular drawing file.",
+                "subsections": [
+                    {
+                        "title": "Where to find the History",
+                        "info": [
+                        "At the bottom of the right toolbar, above the \"help\" icon."
+                        ]
+                    },
+                    {
+                        "title": "Rendering list",
+                        "info": [
+                            "You can find the renderings in reversed chronological order (latest on the top) with the correct date and time of creation."
+                        ]
+                    },
+                    {
+                        "title": "Restore renderings",
+                        "info": [
+                            "You can restore any previously unsaved renderings by:",
+                            "adding it to canvas",
+                            "exporting it right away"
+                        ]
+                    },
+                    {
+                        "title": "Restore settings",
+                        "info": [
+                            "You can also see the specifications and settings that you used for a rendering.",
+                            "By clicking on Apply Settings - will restore any setting and mask that you used for that particular rendering, so you don't have to remember and recreate once again"
+                        ]
+                    }
+                ]
+            }
+        },
+        "page 9": {
+            "name": "Creative Interface",
+            "reference link": "https://docs.vizcom.ai/interface",
+            "content": {
+                "description": "There are 2 main creative interfaces in Vizcom. One is the more focused drawing view(Brush studio), the other is the high level, infinite canvas view (Workbench)",
+                "subsections": [
+                    {
+                        "title": "Studio interface",
+                        "description": "There are 3 options to customise the interface according to your taste and workflow needs. You can access the different Brush Studio layout options under the Home panel, clicking on the Vizcom logo.",
+                        "layouts": [
+                            {
+                                "name": "Default",
+                                "description": "suitable if you have an uploaded image and the workflow is focused on heavy layer usage and image generation."
+                            },
+                            {
+                                "name": "Classic",
+                                "description": "this option allows more space for sketching but the Create and Layers panel aren't visible at the same time"
+                            },
+                            {
+                                "name": "Stacked",
+                                "description": "With this option you can have the Create and Layers panel below each other"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "page 10": {
+        "name": "Keyboard Shortcuts",
+        "reference link": "https://docs.vizcom.ai/keyboard-shortcuts",
+        "content": {
+            "description": [
+                "Keyboard shortcuts allow you to perform common actions quickly and efficiently. Whether you're navigating through menus, editing text, or managing windows, these shortcuts can save you valuable time and effort as you navigate through Vizcom.",
+                "To access shortcuts within the product you can also go to the Help menu > Keyboard shortcuts",
+                "Navigating in the application can be a muscle memory exercise if you're experienced in other drawing apps. Most of the keyboard shortcuts and navigation mechanics are similar to industry standard softwares."
+                ],
+                "categories": [
+                    {
+                        "name": "Different Shortcuts",
+                        "shortcuts": [
+                            { "action": "Brush", "keys": ["B"] },
+                            { "action": "Eraser", "keys": ["E"] },
+                            { "action": "Transform", "keys": ["M"] },
+                            { "action": "Line tool", "keys": ["L"] },
+                            { "action": "Ellipse tool", "keys": ["O"] },
+                            { "action": "Box tool", "keys": ["I"] },
+                            { "action": "Color picker", "keys": ["ALT"] },
+                            { "action": "New layer", "keys": ["N"] },
+                            { "action": "Decrease or increase brush size", "keys": ["[", "]"] },
+                            { "action": "Flip canvas", "keys": ["F"] },
+                            { "action": "Reset view", "keys": ["ESC"] },
+                            { "action": "Show all/hide all layers", "keys": ["ESC"] },
+                            { "action": "Deselect lasso selection", "keys": ["⌘", "D"] },
+                            { "action": "Invert lasso selection", "keys": ["⌘", "I"] }
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "page 11": {
+        "name": "Prompts",
+        "reference link": "https://docs.vizcom.ai/prompts",
+        "content": {
+            "title": "How to write prompts",
+            "sections": [
+                    {
+                        "subtitle": "What even is a Prompt?",
+                        "content": "A prompt is a phrase, sentence, or string of words and phrases that describes what the image should look like. The words will be analyzed by the AI and will guide the process toward the image(s) you describe. These can include commas and weights to adjust the relative importance of each element."
+                    },
+                    {
+                        "subtitle": "Example Prompt",
+                        "content": "“(hyperrealistic:1.5), silver, modern, electric supercar, Car design concept, (depth of field:1.5), blurred background (dark studio scene:1.8), glowing light blue taillight, monochrome scene, glossy, reflective surfaces, colorful particles flying around, DSLR ”"
+                    },
+                    {
+                        "subtitle": "Tip",
+                        "content": "worth to include a fitting brand name for your design, in order to pair a significant design language to your creation."
+                    },
+                    {
+                        "subtitle": "Keep it simple!",
+                        "content": "We optimized the model to make the best out of your sketch, without a long and complicated prompt! So you don’t have to write a poem for a spectacular outcome.\n\nNotice, how this render has similar quality compared the upper one, but with a simpler prompt:\n\n“Silver concept car, dark studio”"
+                    },
+                    {
+                        "subtitle": "Ethical prompting",
+                        "content": ""
+                    },
+                    {
+                        "subtitle": "Examples",
+                        "content": "Your sketch can be anything!\nTake advantage of prompting and explore your shapes in different ways"
+                    },
+                    {
+                        "subtitle": "Main areas worth to control",
+                        "content": [
+                            "Color / material",
+                            "The object itself",
+                            "View",
+                            "Setting / background / scene",
+                            "Brand DNA"
+                        ]
+                    },
+                    {
+                        "subtitle": "Example Prompt",
+                        "content": "\"Silver aluminum teapot, from the side, on a wooden table, studio background, designed by Braun\""
+                    },
+                    {
+                        "subtitle": "Order of importance",
+                        "content": "When you're constructing your prompt, keep in mind that the first word will be the most, and the last word will be the least influential, so keep in mind this order of importance. The first word is actually so strong that it can take over most of the visuals."
+                    },
+                    {
+                        "subtitle": "Use commas",
+                        "content": "To help Vizcom understand your intentions better, separate each visually separate property in your prompt by comma \",\".\n\nTemplate example: (color/material object), (view), (setting/background), (Brand DNA), (other properties)\n\nExample prompt: \"Premium headphone design concept, designed by Bang and Olufsen, made out of brown leather and aluminum, floating in air, dark studio\""
+                    },
+                    {
+                        "subtitle": "Use prompt weights",
+                        "sections": [
+                            {
+                            "subtitle": "Formatting Weights",
+                            "content": "Increase Emphasis: Add a + or number between 1.1 and 2 to emphasize a word or phrase.\n\nDecrease Emphasis: Add a - or number between 0 and 0.9 to de-emphasize.\n\nDefault Weight: 1 (Neutral emphasis)"
+                            },
+                            {
+                            "subtitle": "Increasing Emphasis",
+                            "content": "To emphasize a design element, add a + or a number between 1.1 and 2 at the end of a word or phrase.\n\nUsage: The higher the number or more + symbols, the stronger the emphasis on the design feature.\n\nExample: \"ergonomic chair, detailed texture, (with adjustable arms:1.5)\""
+                            },
+                            {
+                            "subtitle": "Reducing Emphasis",
+                            "content": "To de-emphasize a design feature, add a - or a number between 0 and 0.9 at the end.\n\nExample: \"modern lamp, (minimalist design)-\""
+                            },
+                            {
+                            "subtitle": "Recognized Syntax",
+                            "content": "Single Design Elements: sleek faucet+\n\nElements with Parentheses:\n\nsleek faucet (with spray feature)+\n\nmodern lamp (minimalist design)-\n\nMultiple Symbols for Stronger Effect:\n\nergonomic chair (with lumbar support)+++\n\nNesting for Cumulative Effect:\n\noffice desk (with (integrated cable management)1.2)1.1"
+                            },
+                            {
+                            "subtitle": "Weighting with Numbers",
+                            "content": "Positive Weights:\n\n+ equals 1.1; ++ equals 1.1²; +++ equals 1.1³\n\nNegative Weights:\n\n- equals 0.9; -- equals 0.9²; --- equals 0.9³"
+                            },
+                            {
+                            "subtitle": "Guidelines for Use in Design",
+                            "content": "Effective Range: Weights are most effective between 0.5 and 1.5.\n\nCaution: Excessive weighting may detract from the intended design aesthetics."
+                            },
+                            {
+                            "subtitle": "What is Drawing influence?",
+                            "content": "Drawing influence allows for you to decide how much you want your original artwork to influence the generated result. This is a good way to explore the relationship between your prompt, reference image and original sketch."
+                            },
+                            {
+                            "subtitle": "In Render mode",
+                            "content": "In this mode, you control, how much of the sketch lines will be followed by the generated rendering. It’s recommended to use high drawing influence for exact control over the results.",
+                            "recommendation": "80-100%"
+                            },
+                            {
+                            "subtitle": "In Refine",
+                            "content": "In this mode, your lines, design, and proportion will remain the same. Marginal changes are going to happen if you start decreasing the Drawing influence level."
+                            }
+                        ]
+                    },
+                    {
+                    "subtitle": "Start abstract!",
+                    "content": "Sometimes it can be hard to make Vizcom understand what you want to create. In this case you can start building from the bottom up, by using abstract prompts like \"aluminum object\" - and building the other features on top of an abstract shape.",
+                    "notes": "You can find all previously used prompts and settings on the Generation History"
+                    }
+                ]
+            }
+        },
+
+        "page 12": {
+        "name": "Best Practices",
+        "reference link": "https://docs.vizcom.ai/best-practices",
+        "content": [
+            {
+                "title": "Tips when uploading a sketch"
+            },
+            {
+                "subtitle": "Clean sketch",
+                "content": "Which of the 2 sketches do you think would be easier for you to render by hand? Vizcom AI needs a clean drawing to produce clean results."
+            },
+            {
+                "content": "Make sure to upload one sketch at a time. If multiple sketches exist on a page Vizcom will get confused about which drawing to prioritize."
+            },
+            {
+                "content": "Try to make sure your drawings are uniform in color, no backgrounds, and have clean readable linework."
+            },
+            {
+                "title": "Bigger sketch - more details",
+                "content": "Scale your sketch up with the transform tool, to get more details in your rendering, also to put the emphasis on the product and not on the added background"
+            },
+            {
+                "title": "Bad Examples",
+                "list": [
+                    "❌Too many drawings on one page",
+                    "❌Messy background",
+                    "❌Too small sketches",
+                    "❌Results"
+                ]
+                },
+                {
+                "title": "Good Examples",
+                "list": [
+                    "✅Single Sketch",
+                    "✅No background",
+                    "✅Contrast Lines",
+                    "✅Minimal Linework",
+                    "✅Results"
+                ]
+            },
+            {
+                "title": "Combining aesthetics",
+                "content": "Combine your unique shape with existing brand's DNA"
+            },
+            {
+                "content": "This way you can cover the stylistic range from abstract shape to more conservative concept vehicles and explore the interesting in-between results.",
+                "instructions": [
+                    {
+                    "title": "Step 1",
+                    "content": "Create a volume on your input sketch"
+                    },
+                    {
+                    "title": "Step 2",
+                    "content": "use that volume to increasingly merge the certain brand's aesthetics together as you lower the drawing influence slider."
+                    },
+                    {
+                    "title": "Step 3",
+                    "content": "Push the bundaries and find the lowest drawing influence number, where you get an interesting combination of your shape, interpreted as a concept car."
+                    },
+                    {
+                    "title": "Step 4",
+                    "content": "Analyze the results of your advanced shape exploration"
+                    }
+                ]
+            },
+            {
+                "title": "Remove Background",
+                "content": [
+                    "Remove unwanted backgrounds from your sketches and designs with a single click.",
+                    "Access this feature from the menu in the upper right of the Create tab to instantly isolate your subject."
+                ]
+            },
+            {
+                "title": "Enhance",
+                "content": [
+                    "Vizcom Enhance brings out the materials and details in your renderings, improving overall quality by refining textures and surfaces while maintaining your original design intent.",
+                    "Simply click the menu on the upper right of the Create tab and select 'Enhance' from the dropdown to instantly bring out materials and details in your renderings."
+                ]
+            }
+        ]
+        },
+
+        "page 13": {
+        "name": "Reference Images",
+        "reference link": "https://docs.vizcom.ai/reference-images",
+        "content": {
+            "title": "Using inspiration images with Vizcom",
+            "introduction": [
+            "Vizcom allows you to use reference images as style guides to influence the look and feel of your illustrations. This feature is particularly useful for artists and designers who want to maintain a consistent style across different projects.",
+            "This guide will walk you through the process of using a reference image as a style guide in Vizcom."
+            ],
+            "steps": [
+            {
+                "step": 1,
+                "title": "Create a New Project",
+                "instruction": "Start a new project: Once logged in, click on the “Create New Project” button on the dashboard."
+            },
+            {
+                "step": 2,
+                "title": "Upload Your Base Image",
+                "instruction": "Click on the “Upload” button or drag and drop the image you want to use as your base. By uploading an image, Vizcom will describe it, so you will already have a prompt to work with."
+            },
+            {
+                "step": 3,
+                "title": "Upload Your Reference Image",
+                "instruction": "Leave it in the “Style” format. Click on the “Upload Reference Image” button within the panel and select the image you want to use as a style guide. Only the selected image will influence the renderings."
+            },
+            {
+                "step": 4,
+                "title": "Adjust the Palette",
+                "instruction": "Set a palette and adjust the strength and influence sliders to fine-tune how much the reference image should influence your base image."
+            },
+            {
+                "step": 5,
+                "title": "Apply the Style",
+                "instruction": "Once satisfied with the settings, click “Generate.” Vizcom will process and apply the style from the reference image to your base image. Tip: use the selection tool (G) on separate areas or select the entire canvas (Ctrl+A/Cmd+A) for precise application."
+            }
+            ],
+            "materialTransfer": {
+            "description": "For transferring reference materials or scenes in a more accurate and photorealistic way.",
+            "steps": [
+                {
+                "step": 1,
+                "instruction": "Have a rendering on the canvas (or any volume image that has depth)."
+                },
+                {
+                "step": 2,
+                "instruction": "Upload a reference image and check “Material transfer.”"
+                },
+                {
+                "step": 3,
+                "instruction": "Give a general context with the prompt."
+                },
+                {
+                "step": 4,
+                "instruction": "Select an area where you want to apply the reference. (Or leave unselected to apply to the entire canvas.)"
+                },
+                {
+                "step": 5,
+                "instruction": "Set the image strength (how strongly it influences) and drawing influence (close to 100% to preserve shape)."
+                },
+                {
+                "step": 6,
+                "instruction": "The material is applied—keep generating and tweaking until satisfied. Materials, patches, or product images can all work."
+                }
+            ]
+            },
+            "conclusion": "Using the reference image feature in Vizcom is a powerful way to maintain a consistent style across your projects. By following these steps, you can effectively enhance your illustrations and designs.",
+            "notes": [
+                "Watch our YouTube video for a step-by-step demo.",
+                "Be mindful of other creators’ intellectual property when uploading reference images. Uploaded images will not train or influence Vizcom’s models; they remain private to your file."
+                ]
+            }
+        },
+        
+        "page 14": {
+        "name": "Environmental Context Visualization",
+        "reference link": "https://docs.vizcom.ai/reference-environment",
+        "content": {
+            "overview": "Environment Reference is a powerful Vizcom feature that seamlessly integrates your designs into contextual environments. Rather than presenting concepts in isolation, this tool allows you to visualize how your creations will appear in their intended settings with realistic lighting, scale, and perspective.",
+            "howToUse": [
+            {
+                "step": 1,
+                "instruction": "Access the Reference panel – click the Reference button in the Create panel."
+            },
+            {
+                "step": 2,
+                "instruction": "Select “Environment” mode from the Reference panel dropdown."
+            },
+            {
+                "step": 3,
+                "instruction": "Upload your environment image – add an image of the setting where you want to place your design."
+            },
+            {
+                "step": 4,
+                "instruction": "Choose scenes with consistent lighting direction."
+            },
+            {
+                "step": 5,
+                "instruction": "Select environments that match the intended scale of your design."
+            },
+            {
+                "step": 6,
+                "instruction": "Click “Generate” to place your design in the selected environment."
+            }
+            ],
+            "tipsForBestResults": [
+                "Choose environment images with consistent lighting direction.",
+                "Consider scale – select environments that match the intended size of your design.",
+                "For product designs, environments with natural shadows and reflections yield more realistic results."
+                ]
+            }
+        },
+        
+        "page 15": {
+        "name": "Virtual Garment Try-On",
+        "reference link": "https://docs.vizcom.ai/garment-visualization-tool",
+        "content": {
+            "overview": "Vizcom's Try-On feature allows you to quickly visualize garments or materials on models by referencing existing designs. Follow these steps to achieve the best results",
+            "howToUse": [
+            {
+                "step": 1,
+                "instruction": "Upload or select your base image - This should be a clear photo of a model wearing clothing you want to modify"
+            },
+            {
+                "step": 2,
+                "instruction": "Access the Reference panel - Click the Reference button in the create panel"
+            },
+            {
+                "step": 3,
+                "instruction": "Select \"Try On\" mode - From the Reference panel dropdown, choose \"Try On\""
+            },
+            {
+                "step": 4,
+                "instruction": "Upload your reference garment - Add an image of the specific garment you want to apply"
+            },
+            {
+                "step": 5,
+                "instruction": "Use front-facing, clearly visible garments for best results"
+            },
+            {
+                "step": 6,
+                "instruction": "Images with minimal background distraction work best"
+            },
+            {
+                "step": 7,
+                "instruction": "Generate - Click the Generate button to apply the reference garment to your selection"
+            }
+            ],
+            "troubleshooting": {
+                "errorTitle": "Couldn't generate your image",
+                "errorMessage": "There was an unexpected error. Please try again in a few moments.",
+                "cause": "This typically means Vizcom doesn't know where to apply your changes.",
+                "solution": [
+                    "Use the selection tool (located in the toolbar) to highlight the specific area where you want to apply the garment or modification",
+                    "Make sure your selection area is clearly defined - the blue highlight should cover the entire region you want to modify",
+                    "After making your selection, then click \"Generate\""
+                ]
+            },
+            "bestPractices": [
+                "Use a clear reference image: Select a high-quality, front-facing image of the garment you want to apply (like the blue jacket shown)",
+                "Select the appropriate area: Before generating, use the selection tool to highlight the upper body area of your model where the garment should be applied",
+                "Consider the model's original clothing: The system works best when replacing similar types of garments (in this case, replacing an outer layer with another outer layer)",
+                "Remember: Vizcom may need to know exactly where to apply changes. Without a selection, Vizcom will guess which part of the image to focus on, leading to this error."
+            ]
+        }
+        },
+
+        "page 16": {
+        "name": "3D Layers",
+        "reference link": "https://docs.vizcom.ai/importing-3d-models",
+        "content": {
+            "importing3DModels": {
+            "title": "Importing 3D models",
+            "description": "Upload 3D models in Vizcom and sketch over them to quickly validate your ideas with a high-quality render.\n\n👉 Visit our website to follow along: https://www.vizcom.ai/\n\nSometimes in the design process, when you already have a base 3D model, it is nice sketch over that volume and create renderings, precisely on top of the package.\n\nIn Vizcom, with the 3D layers feature, you have the option to upload your 3D models, set the preferred view, sketch over your model and create coherent renderings.\n\nThis is all possible with the help of the 2 mediums on top of each other (3D Model + sketch).\n\nThis way you can quickly visualize ideas in 3D.",
+            "instructions": [
+                "After creating a new file, Click on the Insert button.",
+                "Here you can upload a 3D model. (There are already uploaded template models in the library.)"
+            ],
+            "supportedFormats": [
+                ".glb",
+                ".gltf",
+                ".obj",
+                ".fbx",
+                ".stl"
+            ]
+            },
+            "using3DLayers": {
+            "title": "How to use 3D layers",
+            "steps": [
+                "Insert a 3D model on the canvas and set the desired position",
+                "Use the brush tool to sketch other details on the model (as a new layer on top)",
+                "Write a prompt and upload a reference image",
+                "Use the selection tool (G) and create the rendering",
+                "Select the entire canvas to apply the movie-scene, by pressing Ctrl+A or CMD+A after clicking on the selection tool (G)",
+                "Click on Generate to render your 3D model!"
+                ]
+                }
+            }
+        },
+        
+        "page 17": {
+        "name": "2D to 3D feature",
+        "reference link": "https://docs.vizcom.ai/2d-to-3d-feature",
+        "content": {
+            "description": "Vizcom's new 2D Studio allows users to convert any 2D image into a 3D model. This feature is accessible to all Vizcom users.",
+            "howToConvert2DImageTo3DModel": {
+            "title": "How to Convert 2D Image to 3D Model",
+            "steps": [
+                {
+                "step": 1,
+                "instruction": "Have a rendering on the canvas, and find the Generate 3D icon. Choose between the Standard or the Detailed 3D options. Alternatively, you can find the 3D generation in the layers panel as well."
+                },
+                {
+                "step": 2,
+                "instruction": "Vizcom will create a new layer, separate the core concept image from the background, and generate the 3D model."
+                },
+                {
+                "step": 3,
+                "title": "Viewing and Adjusting the Model",
+                "instruction": "Click the new layer after processing. Use bounding box controls to scale the model. Use orbit controls to inspect the model from different angles. Set the focal length with the number slider."
+                },
+                {
+                "step": 4,
+                "instruction": "Setting up different views of the 3D model: duplicate the 3D layer and position it on the canvas to create a new rendering scene."
+                },
+                {
+                "step": 5,
+                "instruction": "Use the scene to make a realistic rendering. Click on the \"describe\" function in the prompt, then generate renderings in your desired style and drawing influence."
+                }
+            ]
+            },
+            "exporting3DModel": {
+            "title": "Exporting the 3D Model",
+            "description": "You can also export the generated 3D models. There are high-density, triangulated mesh models, exportable in many formats:",
+            "formats": [
+                ".glb – this will carry over textures",
+                ".obj",
+                ".stl – for 3D printing",
+                ".usdz – for displaying in AR on iPads"
+            ]
+            }
+        }
+        },
+
+        "page 18": {
+        "name": "Types of 3D Generation",
+        "reference link": "https://docs.vizcom.ai/types-of-3d-generations",
+        "content": {
+            "description": "Vizcom enables you to generate 3D models of your renderings at a variety of qualities. For more information about how to use the 2D to 3D feature, refer to the 2D to 3D documentation.",
+            "methods": [
+            {
+                "name": "Standard",
+                "description": "Standard 3D generation is optimized for speed. The output is lower resolution than the detailed options, but allows you to quickly visualize your sketches in 3D and see your ideas from different perspectives."
+            },
+            {
+                "name": "Detailed Smooth",
+                "description": "Generated meshes from Detailed Smooth are smoother and cleaner, with an emphasis on clean topology over capturing every detail of the sketch. This mode excels when you are looking for a mesh to directly edit in your chosen 3D program."
+            },
+            {
+                "name": "Detailed Sharp",
+                "description": "This mode emphasizes the intricate details of the input sketch in both the 3D mesh and texturing. It is ideal for seeing how fine features translate into 3D."
+            }
+            ],
+            "multiview": {
+            "overview": "Use multiple sketch layers of the same object from different perspectives to have more control over the final 3D output.",
+            "generation": "Select 2–5 visible layers, then click \"Generate Multiview 3D\" in the toolbar. The combined model will be added to your layers.",
+            "groupGeneration": "You can also generate multiview 3D from a visible layer group containing 2–5 layers; hidden layers are ignored."
+            },
+            "tips": [
+            "For more precision, imagine your object as a cube and provide sketches that accurately describe all six sides from different angles.",
+            "For more variation, use sketches with slight design differences; each generation will choose which features to keep. Generate again to explore alternate combinations.",
+            "You can include existing 3D models as inputs to the 3D generation tool to fix one view while varying others."
+            ]
+        }
+        },
+        "page 19": {
+        "name": "Palettes Overview",
+        "reference link": "https://docs.vizcom.ai/render-styles",
+        "content": {
+            "title": "Palettes",
+            "subtitle": "Render Styles now called Palettes",
+            "description": "You can create renderings with different Palettes, according to your preference.",
+            "howToSwitch": {
+            "steps": [
+                "In the Brush Studio drawing app, go to the \"Create\" tab (right side of the screen).",
+                "You can see the \"Palette\" dropdown menu under Style, where you can choose the preferred one from the list.",
+                "If you click on \"Generate\", the renderings will be created according to the selected Palette."
+            ]
+            },
+            "offeredPalettes": {
+            "intro": "There are different categories of Palettes. We are offering a list of publicly available palettes, that we will keep adding more and more, according to the general industry needs. There is also an option for enterprise clients to custom train models. This service will be self-serviced and available very soon for any user.",
+            "categories": [
+                {
+                "name": "Essentials",
+                "description": "Essential palettes are the most universally useful styles that you can utilise as base aesthetics that can be relevant in any design discipline or topic.",
+                "items": [
+                    {
+                    "name": "Vizcom General",
+                    "features": [
+                        "Stunning, photorealistic imagery that puts the focus on your product.",
+                        "Model version: V2 (New!)",
+                        "Model version: V1",
+                        "This palette allows the most creative freedom when it comes to prompting. You are free to describe materials, colors, objects, scenes, backgrounds. As a base aesthetic, it is set to provide a simplistic studio rendering of a product, unless you specify different conditions.",
+                        "This palette is suitable for inpainting and modifying on different parts of the rendering in a photorealistic manner.",
+                        "If you add a reference image with this palette, the translation will be the closest to the original image compared to other styles. It will be a realistic interpretation of the inspiration image."
+                    ]
+                    },
+                    {
+                    "name": "Surface Sculpt",
+                    "description": "Clean dynamic surfaces."
+                    },
+                    {
+                    "name": "Volume Render",
+                    "description": "Three-dimensional look with a emphasis on depth and form. This palette can be handy when it comes to form development, without any distracting colors and elements on the rendering. It's like a base ambient occlusion type of visual, that you can build onto."
+                    }
+                ]
+                },
+                {
+                "name": "Stylized",
+                "description": "Stylized palettes have a very specific color palette and aesthetic to them. If you are looking for a striking visual in a coherent style, these can be good choices to make renderings with. This also means that these palettes will not follow color prompts accurately; the level of control is lower compared to more general styles.",
+                "items": [
+                    {
+                    "name": "CyberCel",
+                    "description": "Vibrant flat colors with strong outlines and high contrast."
+                    },
+                    {
+                    "name": "Technicolor 6",
+                    "description": "Futuristic, concept art inspired style with emphasis on the vibe and environment of the whole composition. Model version: V2 (New!), Model version: V1"
+                    },
+                    {
+                    "name": "Pastel Render",
+                    "description": "Gentle and soothing color palette, inspired by the soft hues of pastel colors."
+                    }
+                ]
+                },
+                {
+                "name": "Automotive",
+                "description": "There are very specific rendering styles and aesthetics when it comes to automotive design. We wanted to create palettes that can capture the fluid, artistic, automotive industry specific design sketches. These palettes are also more up to date with design trends, compared to the general ones.",
+                "items": [
+                    {
+                    "name": "Automotive Exterior",
+                    "description": "Vivid car design renders with emphasis on shadows and reflections. Selecting the sketch with inpainting can result in beautiful, lightly shaded sketches. Model version: V2 (New!), Model version: V1"
+                    },
+                    {
+                    "name": "Automotive Interior",
+                    "description": "Detailed renderings emphasising texture, lighting and space in automotive interiors."
+                    }
+                ]
+                }
+            ]
+            },
+            "paletteInfluence": {
+            "description": "Palette influence enables you to control the strength of the rendered image—in other words, how much the selected style should influence your original sketch.",
+            "howToSet": "You can set the palette influence in the Create panel → Style section → Palette option → adjust the percentage.",
+            "examples": [
+                "(Palette: Automotive Exterior V2)",
+                "(Palette: Technicolor V2)"
+            ]
+            }
+        }
+        },
+        "page 20": {
+        "name": "Make Your Own Palette",
+        "reference link": "https://docs.vizcom.ai/make-your-own-palette",
+        "content": {
+            "title": "Making Your Own Palette",
+            "description": "Custom Palettes are a way to create a personal and private AI model that understands your style. You can use these palettes to visualize your sketches in Vizcom with greater consistency while reflecting your personal or your brand’s aesthetic. This guide will walk you through how to curate images for your palette, how to create it within Vizcom, how to thoroughly test it, and how to publish a Palette to your workspace.",
+            "palette curation": [
+            {
+                "title": "Defining your Palette",
+                "content": "In order to create a successful Palette, you need to teach Vizcom your aesthetic by uploading images that reflect a particular style. These could be images that reflect your sketching style, brand language, or visual style."
+            },
+            {
+                "title": "Number of Images",
+                "content": "Use 4 to 30 images in your Palette to help Vizcom learn your style effectively."
+            },
+            {
+                "title": "Image Consistency",
+                "content": "Think of the images you upload as the ones you’d like to generate. They should share similar visual qualities, lighting, and material to those you’d like to generate."
+            },
+            {
+                "title": "Multiple Small Palettes vs. One Large Palette",
+                "content": "For best results, organize images into multiple smaller Palettes rather than one large one. Mixing images with varying fidelities, such as sketches and photos, in the same Palette can hinder the generation of a cohesive aesthetic. By separating images by fidelity, Vizcom can better interpret and generate images with the desired style."
+            },
+            {
+                "title": "Uploading Multiple Views for Versatile Rendering",
+                "content": "Uploading various angles of a product allows Vizcom to understand the object in three dimensions, enabling accurate rendering from any angle. A Palette with only one view will focus on generating images from that perspective and may struggle with alternate views."
+            },
+            {
+                "title": "Simple Backgrounds",
+                "content": "For ideation, use images with simple white backgrounds to maintain clarity and focus on the product. This setup helps Vizcom produce cleaner, more adaptable renderings."
+            },
+            {
+                "title": "Un-Cropped High Resolution Images",
+                "content": "Ensure that images are high-resolution and free from pixelation. Avoid cropping in too closely on the subject—having the entire subject in the frame improves the Palette’s effectiveness."
+            },
+            {
+                "title": "Avoid Inspiration Images",
+                "content": "We recommend using inspiration images as reference material rather than including them directly in Palettes. Inspiration images tend not to generate effective results in this context and are better suited as supplementary reference material within the tool."
+            }
+            ],
+            "creatingPaletteInVizcom": {
+            "title": "Creating a Palette in Vizcom",
+            "content": "Start by creating a new Workbench file, then click the + button in the toolbar to open the Insert panel. Drag or click to add a Palette block to the canvas, then click “Upload” within the Palette block to upload 4–30 curated images that reflect a consistent style. You can also drag images directly from the canvas into the Palette block. If any images are added by mistake, click to delete them or continue adding more. Double-click the Palette title to rename it for easy identification. Once your images are set and the Palette is named, click “Train” to start the process. Training typically takes around 5 minutes, though this may vary depending on the number of images in the Palette."
+            },
+            "testingYourPalette": {
+            "title": "Testing Your Palette",
+            "intro": "After training your Palette, it’s time to test its effectiveness. For Pro users, a green chip will replace the “Train” button upon completion, while Enterprise users will see a purple “Publish” chip. The purpose of testing is to evaluate how well Vizcom interprets the aesthetic of your curated images. If the initial results are not as expected, try duplicating the Palette and adjusting its images to refine the style.",
+            "workbench": {
+                "title": "Testing in Workbench",
+                "steps": [
+                "Upload Your Sketch: Click the + icon in the top toolbar to open the Insert panel and upload your sketch, or drag the image directly onto the canvas.",
+                "Connect a Prompt Block: Drag the + from the right-hand side of the image to create a prompt block. Within it, toggle between “Render” and “Refine” modes, select your Palette under “Local Palettes,” and adjust the drawing influence to control adherence to the sketch vs. Palette style.",
+                "Compose Your Prompt: Vizcom will populate tags derived from your images—use these to craft a prompt reflecting your aesthetic, e.g., “wooden toy car design, painted, black wheels, white background.”",
+                "Generate and Evaluate: Produce images at varying drawing influence levels—100% follows your sketch closely; 80%, 60%, 40% incorporate more Palette creativity. Adjust to see how well Vizcom interprets your style."
+                ]
+            },
+            "studio2D": {
+                "title": "Testing in 2D Studio",
+                "steps": [
+                "Enter 2D Studio: Double-click an uploaded sketch or add a draw block and double-click it.",
+                "Select Your Palette: In the Create panel, open the Palette selector and choose your custom Palette under “Local Palettes.”",
+                "Compose Your Prompt: Use the tags from your Palette images to write a prompt that maintains the Palette’s style.",
+                "Generate and Adjust: Set drawing influence (100% for close adherence, lower for more creative influence) and generate to evaluate."
+                ]
+            }
+            },
+            "publishingYourPalette": {
+            "title": "Publishing Your Palette",
+            "content": "Once satisfied with your Palette, publish it to your personal library (Enterprise only).",
+            "steps": [
+                "Click “Publish” next to the Palette title in Workbench to make it available across all files.",
+                "On the publish screen, rename the Palette or upload a custom thumbnail for discoverability. Toggle tags on/off to control visibility.",
+                "Click “Publish” to finalize. Your Palette is now accessible from the selector in any file."
+            ]
+            },
+            "faq": [
+            {
+                "question": "What should I do if my Palette fails to train?",
+                "answer": "Palette training may fail due to poor connection, image anomalies, or other factors. Click “Retrain.” If issues persist, contact support."
+            },
+            {
+                "question": "How can I improve my Palette if I’m not satisfied with the results?",
+                "answer": "Duplicate the Palette and adjust image selections—add or remove images to refine the aesthetic. Refer to curation tips above."
+            }
+            ]
+            }
+        },
+        
+        "page 21": {
+        "name": "Assets Overview",
+        "reference link": "https://docs.vizcom.ai/assets-overview",
+        "content": {
+                "description": "The Vizcom Asset Library is a centralized collection of reusable visual assets—colors and images—that can be easily added, managed, and reused across your file & projects. It helps maintain consistency, streamline workflows, and support team collaboration by keeping commonly used assets accessible in one place.",
+                "access": {
+                    "overview": "To access your assets, simply click on the \"Asset\" tab located in the left sidebar or in the toolbar within Workbench. From there, you can browse, add, and manage your colors and images.",
+                    "detailsLink": "For a detailed guide on accessing and using each type of asset, read more here."
+                },
+                "collaboration": [
+                    {
+                    "scope": "This file",
+                    "description": "Assets only available in the file you're working in (Available on all plans)"
+                    },
+                    {
+                    "scope": "My library",
+                    "description": "Access assets across your files in a single workspace (Available on Pro & Enterprise plans only)"
+                    },
+                    {
+                    "scope": "Workspace",
+                    "description": "Access and share assets with teammates in your workspace (Available on Enterprise plans only)"
+                    }
+                ],
+                "howToAccess": [
+                    {
+                    "instruction": "You will now see an \"Assets\" tab in the left sidebar in 2D Studio"
+                    },
+                    {
+                    "instruction": "Click on the \"shapes\" icon in the toolbar to open up the asset library in Workbench"
+                    }
+                ]
+            },
+        },
+        
+        "page 22": {
+        "name": "Asset Types",
+        "reference link": "https://docs.vizcom.ai/asset-types",
+        "content": {
+            "assets": [
+            {
+                "type": "Color",
+                "description": "You can add and manage colors in Vizcom. However, we currently do not support uploading a CSV file with HEX codes.",
+                "entryPoints": [
+                "Left sidebar",
+                "Toolbar",
+                "Reference panel"
+                ],
+                "actions": {
+                "add": "Click on the \"+\" button on the right, select a color, (optional) name the asset, then click Save.",
+                "edit": "Click on the asset, open the three-dot menu, choose Edit, adjust the color or name, and click Save.",
+                "delete": "Click on the asset, open the three-dot menu, and choose Delete."
+                }
+            },
+            {
+                "type": "Material",
+                "description": "Materials are currently treated as images in Vizcom. You cannot upload a 3D model of a material or texture.",
+                "entryPoints": [
+                "Left sidebar",
+                "Toolbar",
+                "Reference panel"
+                ],
+                "actions": {
+                "add": "Click on the \"+\" button on the right, upload or paste an image, (optional) name the asset, then click Save.",
+                "edit": "Click on the asset, open the three-dot menu, choose Edit, adjust the image or name, and click Save.",
+                "delete": "Click on the asset, open the three-dot menu, and choose Delete."
+                }
+            }
+            ]
+        }
+        },
+        "page 23": {
+        "name": "Annual & Monthly Billing",
+        "reference link": "https://docs.vizcom.ai/annual-and-monthly-billing",
+        "content": {
+            "overview": "Workspaces on the Professional plan can be on a monthly or annual billing interval. Opting for annual billing provides a 20% discount on the yearly price.",
+            "pricing": {
+            "Professional Monthly": "$49/month",
+            "Professional Annually": "$40 per seat/month (billed annually)"
+            },
+            "flows": [
+            {
+                "title": "Switch from Starter Monthly to Professional Annually",
+                "steps": "Navigate to Settings → Plans & Billing, toggle Professional plan to 'Annually' and click 'Upgrade'; optionally add seats when prompted.",
+                "details": "An immediate invoice is generated for the upcoming year at $40/seat/month, based on selected seats."
+            },
+            {
+                "title": "Switch from Professional Monthly to Professional Annually",
+                "steps": "Navigate to Settings → Plans & Billing, toggle Professional plan to 'Annually' and click 'Change to Annually'; adjust seats if desired.",
+                "details": "You are invoiced immediately at $40/seat/month; seat count updates instantly and prorated credit is applied for any unused monthly seats."
+            },
+            {
+                "title": "Switch from Professional Annually to Professional Monthly",
+                "steps": "Navigate to Settings → Plans & Billing, toggle Professional plan to 'Monthly' and click 'Change to Monthly'; adjust seats if desired.",
+                "details": "Change will take effect at period end, scheduling your workspace to switch to monthly billing thereafter."
+            },
+            {
+                "title": "Cancel switch from Professional Annually to Professional Monthly",
+                "steps": "Navigate to Settings → Plans & Billing, toggle Professional plan back to 'Annually' and click 'Revert to Annually'; adjust seats if desired.",
+                "details": "Cancellation is immediate—your workspace remains on annual billing with no additional charges."
+            }
+            ]
+        }
+        },
+        
+        "page 24": {
+        "name": "Managing Seats",
+        "reference link": "https://docs.vizcom.ai/managing-seats",
+        "content": {
+            "overview": "Seats can be managed at any point during your billing period. Paid roles (Admin and Editor) each require a seat; Viewers are free and do not require a seat. Only Admins can adjust seat counts.",
+            "addingSeats": {
+            "title": "Adding Seats (Professional Plan)",
+            "steps": "Navigate to Settings → Plans & Billing → Manage Seats, click + to add seats; when upgrading from Starter to Professional, you may add seats.",
+            "details": "An immediate invoice is generated for the upcoming billing period based on selected seats; change takes effect immediately with prorated charge; Admins can invite new Editors/Admins right away."
+            },
+            "removingSeats": {
+            "title": "Removing Seats (Professional Plan)",
+            "steps": "Navigate to Settings → Plans & Billing → Manage Seats, click – to remove seats (minimum 1).",
+            "details": "Removal takes effect at period end (current seats remain until then); if >2 paid roles exist, excess are downgraded to Viewers (invited first, then newest)."
+            }
+        }
+        },
+
+        "page 25": {
+        "name": "Switching Your Workspace’s Plan",
+        "reference link": "https://docs.vizcom.ai/switching-your-plan",
+        "content": {
+            "overview": "You can upgrade or downgrade your workspace’s plan at any point. Each workspace is billed separately; changes apply only to the current workspace. Only Admins may manage plans.",
+            "upgrade": {
+            "title": "Upgrading Your Workspace Plan",
+            "steps": "Navigate to Settings → Plans & Billing, click 'Upgrade' on Professional or 'Contact sales' for Enterprise; when moving from Starter to Professional, optionally add seats.",
+            "details": "Immediate invoice for upcoming period based on seat count; upgrading unlocks Pro features."
+            },
+            "downgrade": {
+            "title": "Downgrading Your Workspace Plan",
+            "steps": "Navigate to Settings → Plans & Billing, click 'Downgrade' (Starter) or 'Contact sales' (Enterprise); when moving from Professional to Starter, adjust seat count (Starter allows only 2 paid seats).",
+            "details": "If >2 paid roles exist, excess are downgraded to Viewers at period end; Pro features remain until period end.",
+            "effect": "Scheduled downgrade takes effect at the end of the current billing period."
+            },
+            "cancelDowngrade": {
+            "title": "Canceling a Downgrade",
+            "steps": "Navigate to Settings → Plans & Billing → Manage Plan, click 'Renew Plan'.",
+            "details": "Scheduled downgrade is canceled immediately; workspace retains Professional features."
+            }
+        }
+        },
+
+        "page 26": {
+        "name": "Managing Members",
+        "reference link": "https://docs.vizcom.ai/manage-members",
+        "content": {
+            "section": "Manage members",
+            "title": "Managing Members in Your Workspace",
+            "overview": "Invite and manage people in your workspace to collaborate. Only Admins can invite and assign roles.",
+            "invitingMembers": {
+            "note": "Only Admins can invite members.",
+            "steps": "Ensure you’re an Admin → click 'Invite members' or go to Settings → Members → enter emails → assign roles → send invites → track pending invites under Settings → Members."
+            },
+            "memberRoles": {
+            "description": "Roles and permissions vary by plan.",
+            "plans": {
+                "Starter": { "paidSeats": ["Admin","Editor"], "freeSeats": ["Viewer"] },
+                "Professional": { "paidSeats": ["Admin","Editor"], "freeSeats": ["Viewer"] },
+                "Enterprise": { "paidSeats": ["Admin","Editor"], "freeSeats": ["Viewer"] }
+            },
+            "roles": {
+                "Viewer": {
+                "cost": "free",
+                "permissions": ["View files","Cannot invite","Cannot edit or create files"]
+                },
+                "Editor": {
+                "cost": "paid",
+                "permissions": ["Create/edit files","Cannot invite","Cannot manage settings","Cannot create teams"],
+                "upgrade": "Contact an Admin to promote"
+                },
+                "Admin": {
+                "cost": "paid",
+                "permissions": ["All Editor privileges","Invite/remove members","Manage settings, billing, security and privacy","Create/manage Teams"],
+                "note": "Each workspace must have at least one Admin"
+                }
+            }
+            }
+        }
+        },
+
+        "page 27": {
+        "name": "Managing Teams",
+        "reference link": "https://docs.vizcom.ai/teams",
+        "content": {
+            "section": "Teams",
+            "title": "Teams",
+            "description": "Create dedicated collaboration spaces for subsets of workspace members. Organize files by project, topic, or group.",
+            "subscriptionLimits": {
+            "Starter": "1 all-workspace team",
+            "Professional": "1 all-workspace team",
+            "Organization": "Unlimited teams"
+            },
+            "allWorkspaceTeam": {
+            "title": "All-Workspace Team",
+            "description": "Auto-created in every workspace; all members are included and cannot be removed; ideal for shared resources."
+            },
+            "management": {
+            "whoCanManage": "Only Admins can create/rename teams, invite members, and set visibility."
+            },
+            "visibility": [
+            {
+                "type": "Public",
+                "visibility": "Everyone in the workspace can see, join, and view all files/folders.",
+                "permissions": "Members inherit workspace role within the team.",
+                "useCase": "Encourages cross-team collaboration."
+            },
+            {
+                "type": "Private",
+                "visibility": "Only Admins and invited members see the team.",
+                "permissions": "Invited members inherit their workspace role.",
+                "useCase": "Secures sensitive or pre-release work."
+            }
+            ],
+            "membership": {
+            "adminActions": "Admins invite/remove under Settings → Teams → Team Settings.",
+            "memberActions": "Members join/leave public teams via Settings → Teams → … → Join/Leave; private teams require Admin invite."
+            }
+        }
+        },
+
+        "page 28": {
+        "name": "Workspaces",
+        "reference link": "https://docs.vizcom.ai/workspaces",
+        "content": {
+            "overview": "Your Vizcom account allows you to set up Workspaces where you can collaborate with the rest of your team in editing files, depending on each workspace member’s role (see below). You can invite people to your Workspace as either Admin (limits apply on the Starter plan, priced per Admin on paid plans), Editors (limits apply on the Starter plan, priced per Editor on paid plans), and Viewers (unlimited, free on all plans). With a single Vizcom account, you have the ability to create and join other Workspaces.",
+            "roles": [
+            {
+                "role": "Admin",
+                "notes": "Limits apply on Starter plan; priced per Admin on paid plans"
+            },
+            {
+                "role": "Editor",
+                "notes": "Limits apply on Starter plan; priced per Editor on paid plans"
+            },
+            {
+                "role": "Viewer",
+                "notes": "Unlimited, free on all plans"
+            }
+            ],
+            "structure": "Folders and teams help you keep your work organized while using a singular workspace, but creating separate Workspaces elevates this experience. Workspaces operate entirely independently from one another, while still residing within a unified account. Each Workspace has the capability to host distinct members and content. Members belonging to one Workspace won’t be able to see the work or the members of other Workspaces, ensuring a clear separation. Each Workspace can be subscribed to a different payment plan.",
+            "using": "Workspaces are completely separate from one another. This means each Workspace can have its own teams with different members, subscribed to different pricing plans. Only those members can share content with the members of that Workspace.",
+            "configure": "As an admin: Navigate to Settings > General to add a workspace logo, edit your workspace name, and delete your workspace; navigate to Settings > Members to invite members and manage roles; navigate to Settings > Teams to create teams for your workspace (limits apply based on subscription plan).",
+            "subscriptionPlans": "When you get started with Vizcom for free, your workspace will be on the free Starter plan. You can upgrade your workspace anytime under Settings > Plans & Billing to access additional features.",
+            "multipleWorkspaces": "Your Workspace acts as a container, ensuring your content remains distinct within a single account. By using multiple Workspaces, you can add different members to different workspaces, giving specific groups access to specific content. Invitations to join separate Workspaces may be extended to align with distinct teams or entirely separate company entities.",
+            "switching": "To switch between different Workspaces, simply click the workspace dropdown menu toggle located in the top left corner of your Workspace.",
+            "delete": "Deleting your workspace is a big deal, so we're here to help. Please contact our support team to carry out this action. If you're looking to manage or cancel your subscription, you can do so at Settings > Plans & Billing."
+        }
+        },
+
+        "page 29": {
+        "name": "Access & Activity Logs",
+        "reference link": "https://docs.vizcom.ai/access-activity-logs",
+        "content": {
+            "description": "As an Admin of an Enterprise you can check who/when accessed the application under Access logs. You can also check what were some of the high level user activities, such as creating and editing files in the workspace.",
+            "find": "On the Main File Dashboard page, go under Settings and select the \"Data\" option.",
+            "notes": [
+            "You can switch the list between access and activity logs",
+            "You can also search for specific email addresses"
+            ]
+        }
+        },
+        
+        "page 30": {
+        "name": "documentation FAQs",
+        "reference link": "https://docs.vizcom.ai/",
+        "content": {
+            "1": {
+            "question": "Do I own what I upload and create in Vizcom?",
+            "answer": "All users retain the copyright over the content uploaded, designed, and generated using Vizcom. Whether you're a free user or paid user, your uploaded content and designs are always yours. You can use these creations however you would like—in commercial projects, paid freelance work, full-time employment, education, etc."
+            },
+            "2": {
+                "question": "Do I own what I upload and create in Vizcom?",
+                "answer": "All users retain the copyright over the content uploaded, designed, and generated using Vizcom. Whether you're a free user or paid user, your uploaded content and designs are always yours. You can use these creations however you would like—in commercial projects, paid freelance work, full-time employment, education, etc."
+            },
+            "3": {
+                "question": "Can Vizcom see what I upload and generate?",
+                "answer": "Paid Users: No, we cannot see or access your uploads or generated images. Users on the Professional, Organization, and Enterprise plans benefit from full design ownership and content privacy. We ensure the security of uploaded and generated content using robust encryption and strict access controls, adhering to SOC 2 compliance standards. This includes those trialing a paid plan.\n\nFree Users: Yes, your uploads and generated images are visible to Vizcom, as Vizcom retains the right to use your user content and designs for operating, promoting, and improving Vizcom."
+            },
+            "4": {
+                "question": "Does Vizcom use my uploads and generated images?",
+                "answer": "Free Users: If you are on the Vizcom Starter plan, you retain full ownership of your uploads and generated designs. However, by using the service you grant Vizcom a non-exclusive, royalty-free, fully paid, worldwide license to use your user content and designs to operate, promote, and improve Vizcom; this license terminates if you delete your content or your account.\n\nPaid Users: If you subscribe to Vizcom Professional, Organization, or Enterprise, you retain full ownership of both your uploads and generated designs. You grant Vizcom only a limited, revocable, non-exclusive license strictly to deliver those paid services. This limited license does not grant Vizcom any broader rights to use or distribute your content.\n\nThis policy applies equally to users trialing a paid plan."
+            },
+            "5": {
+                "question": "What happens if I downgrade?",
+                "answer": "If you don’t want to continue with your current subscription, you can always downgrade to a different plan.\n\nYes, the Starter plan is our free version of Vizcom. It offers all of the amazing features of Vizcom you need to get started, but you are limited to one Editor role, one Admin role, and one Team.\n\nThe Starter plan is limited to only two paid seats, either Admin or Editor. If you have more user roles than this prior to downgrading, we will downgrade the excess role types to Viewers. The Admin that requests the downgrade will remain an Admin. Admins can always change the roles of their Workspace members in their Workspace settings page.\n\nThe Starter and Professional plans are limited to one Team. If you downgrade from our Organization plan, all Teams besides your All-Workspace team will be archived. You will have view-only access to the files and folders in these archived teams. You will not be able to create new files in any teams other than the default All-Workspace team. You can move the location of your files from one Team to another at any point, as you see fit.\n\nSee our FAQ section for specific questions regarding content ownership and licensing when downgrading."
+            },
+            "6": {
+                "question": "What is the benefit of subscribing to a paid plan?",
+                "answer": "Our paid plans—Vizcom Professional, Organization, and Enterprise—include several advanced features:\n\n• Priority render queue: faster wait times when generating or exporting images.\n• 4K export: access to higher-quality export options.\n• Batch generation: unlock the ability to generate 4 images at a time instead of just one.\n• Enhanced collaboration: support for more Editors and Teams (limits vary by plan).\n• Full design privacy: Vizcom will not use your content to improve the service. Learn more about the differences here.\n\nLearn more about our pricing and view a detailed feature comparison here."
+            }
+            }
+        }
+    },
+
+    "overview": {
+    "company name": "Vizcom",
+    "reference link": "https://www.vizcom.ai/overview",
+    "content": [
+            {
+            "title": "Communicate visually",
+            "content": "Upload a color, material, or reference photo to apply to your design."
+            },
+            {
+            "title": "Workbench",
+            "content": "Explore, diverge, collaborate in an infinite whiteboard space."
+            },
+            {
+            "title": "Canvas",
+            "content": "Iterate and connect ideas in a boundless creative environment."
+            },
+            {
+            "title": "Collaborate",
+            "content": "Harness collective creativity with intuitive team tools."
+            },
+            {
+            "title": "Discover unexplored design paths",
+            "content": "Amplify your creativity by generating unexpected happy accidents."
+            },
+            {
+            "title": "Import & Export",
+            "content": "Compatible with OBJ, FBX, STL, and USDZ 3D formats."
+            },
+            {
+            "title": "Convert 2D → 3D",
+            "content": "View your sketch from new angles by generating a 3D model."
+            },
+            {
+            "title": "Leverage your unique style",
+            "content": "An intelligent companion that speaks your visual language."
+            },
+            {
+            "title": "Stylized palettes",
+            "content": "Create renderings with different prebuilt or custom Palettes."
+            },
+            {
+            "title": "A suite of familiar tools",
+            "content": "Dive into drawing, layering, and file‐management tools that feel like home."
+            },
+            {
+            "title": "Layers",
+            "content": "Composite your ideas with intuitive layering capabilities."
+            },
+            {
+            "title": "Drawing tools",
+            "content": "Flexible brushes, erasers, shapes, and more."
+            },
+            {
+            "title": "Precise Control",
+            "content": "New and familiar ways to manipulate your canvas."
+            },
+            {
+            "title": "Smart Selection",
+            "content": "Vizcom understands your canvas and lets you target individual parts."
+            },
+            {
+            "title": "Selection tools",
+            "subitems": [
+                {
+                "name": "Lasso",
+                "description": "Freehand selection of any area."
+                },
+                {
+                "name": "Brush Selection",
+                "description": "Paint over your canvas to make quick selections."
+                },
+                {
+                "name": "Bezier Curve",
+                "description": "Polygonal or curve-based selection for precision."
+                }
+            ]
+            }
+            ],
+    "download": {
+        "title": "Download Vizcom",
+        "description": "Access Vizcom (ONLY) from your Mac or Windows desktop."
+    },
+    "footer": {
+        "contact": {
+        "label": "Contact us",
+        "email": "hello@vizcom.ai"
+        },
+        "copyright": "© 2025 Vizcom Technologies, Inc.",
+        "brand": "Vizcom"
+    }
+    },
+
+    "FAQS": {
+        "reference link": "https://www.vizcom.ai/overview",
+        "notes": "To view FAQS, follow link and scroll all the way to the bottom of the page",
+        "content": [
+            {
+            "question": "Can I use Vizcom for free?",
+            "answer": "Yes of course! Our Starter plan is completely free, no credit card required. You’ll get access to unlimited files, one team, two editors, and unlimited viewers. This is a great plan to explore Vizcom with."
+            },
+            {
+            "question": "What payment methods can I use?",
+            "answer": "We accept all major credit and debit cards."
+            },
+            {
+            "question": "What are the different roles and their associated access? Which roles do I pay for?",
+            "answer": "You pay for the number of admins and editors in your Vizcom workspace. Admins have full edit access to workspace settings and files. Editors have edit access to files but cannot manage workspace settings. Viewers have view-only access to the workspace."
+            },
+            {
+            "question": "How does team billing work?",
+            "answer": "Your first team is always free. On the free plan, you can invite up to one extra editor to begin collaborating right away. To invite additional editors or create more teams, you’ll need to upgrade to one of our paid plans. You will be billed for each new admin and editor you invite."
+            },
+            {
+            "question": "Can I change my subscription from monthly to yearly?",
+            "answer": "At this time, we do not offer annual payment plans."
+            },
+            {
+            "question": "Do I own the content I produce in Vizcom?",
+            "answer": "For free users, while we may use generated images to improve our services, we do not claim ownership over your designs, concepts, or original ideas—you retain full IP rights. For paid users, your images and designs remain entirely private and are used only to provide our services."
+            },
+            {
+            "question": "Does Vizcom use my data to train AI models?",
+            "answer": "Vizcom does not access, analyze, or utilize data from user projects or sketches for AI/ML training—except that free-tier data may be leveraged solely to enhance our services."
+            }
+        ]
+    },
+
+    "pricing": {
+        "pageTitle": "Pricing",
+        "reference link": "https://www.vizcom.ai/pricing",
+        "content": {
+            "pageDescription": "Vizcom is priced to bring value to teams of all sizes. Accelerate your sketch-to-shelf design process today.",
+            "plans": [
+                {
+                "name": "Starter",
+                "price": 0,
+                "currency": "USD",
+                "billingCycle": "monthly",
+                "tagline": "Get started for free",
+                "features": [
+                    "Basic AI Creation Tools",
+                    "Standard Render Speed",
+                    "Community Support"
+                ]
+                },
+                {
+                "name": "Professional",
+                "price": 40,
+                "currency": "USD",
+                "billingCycle": "annually",
+                "discount": "20%",
+                "tagline": "Perfect for individual professionals looking for the extra features",
+                "purchaseOptions": [
+                    "Annually",
+                    "Monthly"
+                ],
+                "features": [
+                    "Everything in Starter, plus:",
+                    "Full Design Privacy",
+                    "Fast Renders",
+                    "Custom Palettes",
+                    "3D Model Generation (50 per month)",
+                    "Video Generation (10 per month)",
+                    "Live Render (5 hours per month)",
+                    "Priority Support"
+                ]
+                },
+                {
+                "name": "Enterprise",
+                "price": "Speak to Us",
+                "currency": "USD",
+                "billingCycle": "Speak to Us",
+                "tagline": "Made for teams and organizations looking to design at scale",
+                "contact": "sales",
+                "features": [
+                    "Everything in Professional, plus:",
+                    "Unlimited Fastest Renders",
+                    "Unlimited Seats & Teams",
+                    "Concierge AI Model Training",
+                    "Higher Usage Limits",
+                    "Unlimited Live Render Usage",
+                    "Advanced Export Options",
+                    "Dedicated Onboarding",
+                    "Training Sessions",
+                    "Centralized Billing",
+                    "Audit and Access Logs",
+                    "Single Sign-On (SSO)",
+                    "Dedicated Support"
+                ],
+                    "advanced_security": {
+                    "Centralized administration for admins": "Manage users, teams, billing, and shared resources across your company from a single admin dashboard.",
+                    "Secure access and onboarding": "Deploy Vizcom company-wide with confidence via SAML SSO, SCIM provisioning, domain capture, and network access controls",
+                    "Granular controls and greater visibility": "Fine-tune settings to meet global and group-specific needs and get insights into activity happening across your company"
+                },
+                "additional_notes": "With Enterprise plan, manage access with any identity provider that supports SAML and SCIM, including Azure AD, Okta, OneLogin, and more. Securely deploy Vizcom across your entire organization. Get a version of Vizcom exclusively trained on your design history and assets to rapidly iterate concepts that embody your brand's unique aesthetic and style."
+                }
+            ],
+            "educationProgram": {
+                "title": "Vizcom for Education",
+                "description": "Join the Vizcom EDU Program, perfect for innovative educators and students. Students and Educators design for free!",
+                "benefits": [
+                "Free Vizcom Professional subscription",
+                "Student Ambassador opportunities",
+                "Exclusive community access"
+                ],
+                "price": 0,
+                "currency": "USD",
+                "eligibility": "For qualified educators and students",
+                "for students": "Unlock advanced features for free, build industry- relevant skills, and enhance your portfolio with Vizcom’s design tools. Please sign up with your school email.",
+                "for educators": "Equip your students with the tools they need to prepare for the future of the design industry. Unlock free access to Vizcom’s Pro account by completing verification."
+            }
+        }
+    },
+    
+    "privacy": {
+        "reference link": "https://www.vizcom.ai/security",
+        "page": {
+            "title": "Trust in Every Design",
+            "intro": "At Vizcom, we prioritize security and privacy in the industrial design process. Our cloud-native platform uses advanced security measures to safeguard your designs at every stage."
+        },
+        "main_content": [
+            {
+            "title": "A high bar for privacy and security",
+            "content": "Our security measures exceed industry standards for data protection and security.",
+            "linkText": "Read More"
+            },
+            {
+            "title": "Modern, Cloud-Native Environments",
+            "content": "Vizcom's infrastructure is cloud-native, allowing our security team to leverage the unparalleled scale and flexibility of the cloud. By building on top of trusted cloud vendors like AWS, Vizcom users benefit from an enterprise-grade network architected to protect their information, backed by the deep expertise of Vizcom's engineering-focused and always-on security team."
+            },
+            {
+            "title": "Security Measures",
+            "subsections": [
+                {
+                "subtitle": "Data Protection",
+                "content": "Vizcom employs industry-leading encryption for all data. Servers in our Virtual Private Clouds (VPCs) prevent unauthorized access. Paid customers retain full ownership of their data."
+                },
+                {
+                "subtitle": "Identity Management",
+                "content": "With Enterprise plan, manage access with any identity provider that supports SAML and SCIM, including Azure AD, Okta, OneLogin, and more. Securely deploy Vizcom across your entire organization."
+                },
+                {
+                "subtitle": "Service Reliability",
+                "content": "Our service is available 24/7/365 across multiple data centers. Real-time status updates and built-in version history ensure uninterrupted access and transparency."
+                }
+            ]
+            },
+            {
+            "devotion": [
+                {
+                "title": "Your privacy rights are important to us",
+                "content": "Vizcom is committed to the highest standards of privacy and data protection. We adhere to stringent global regulations and best practices to ensure that all customer and employee personal information is handled with the utmost care and confidentiality."
+                },
+                {
+                "title": "Your data belongs to you",
+                "content": "Vizcom is committed to keeping your information secure and private. Your content is important to you and we take the responsibility of protecting it seriously. We’ve defined roles and responsibilities in our Shared responsibility security model to help you understand your responsibilities."
+                },
+                {
+                "title": "Privacy Policy Details",
+                "content": "The details on what data we collect, how we collect it, what we do with it are available in our Privacy Policy."
+                }
+            ]
+            }
+        ],
+        "privacy_faq": [
+            {
+            "question": "What are the security benefits of a cloud-native infrastructure?",
+            "answer": "Cloud-native environments provide a number of security benefits including greater visibility and control over the access and usage of applications, reduced attack surface due to ephemeral compute services of cloud applications, and ensured data backup by cloud providers. Vizcom customers also benefit from our use of industry-standard cloud resources and the output of the cloud security community is leveraged to better protect user data."
+            },
+            {
+            "question": "How do I report a potential security vulnerability in Vizcom products?",
+            "answer": "Anyone can report security issues by contacting our support team. We also have a bug bounty program for security researchers, and we allow customers to conduct their own penetration test in alignment with our program rules (e.g. test your own data, report any findings to us first)."
+            },
+            {
+            "question": "What personal data does Vizcom access, store, or process from customers?",
+            "answer": "To provide our services, Vizcom collects limited personal information about users, including name and email. You retain sole discretion over what you include in your designs on the Vizcom Platform. Vizcom also complies with best practices around data protection. More information is available in our privacy policy."
+            },
+            {
+            "question": "Does Vizcom have any rights to my data?",
+            "answer": "If you are a paying user, all data that you upload to or develop on the Vizcom platform remains owned by you and is treated as your confidential information. Free users do not have exclusive rights to their data."
+            },
+            {
+            "question": "What are the license terms of my generated images?",
+            "answer": "Vizcom does not own your work. The designs you create using our platform, the ideas you visualize, are 100% owned by you. This applies to both free and paid users. We also want to make clear that your data is completely private and will never be shared with a third party. Whether you're a free user or a paid user, only you and the collaborators you invite can view or access your creations."
+            },
+            {
+            "question": "Benefits of Free Users?",
+            "answer": "For free users, while we do use the images generated on our platform to improve our services, we do not claim ownership over your designs, concepts, or original ideas. You retain full ownership of your intellectual property."
+            },
+            {
+            "question": "Benefits of Paid Users?",
+            "answer": "For paid users, your images and designs remain entirely private and are not used by Vizcom in any capacity. Every design, every concept, every image you create or upload to Vizcom is yours and kept private."
+            }
+        ]
+    },
+    
+    "terms of service": {
+        "termsOfService": {
+            "versionEffectiveDate": "July 21, 2023",
+            "preamble": [
+            "Thank you for using the Vizcom platform (the “Services”). These Terms of Service (the “Agreement”) explain what rights you have with respect to images and other assets which you might generate with the Service, or prompts you might enter into the Service (the “Assets”), your use of the Services, and other important topics like arbitration. Please read it carefully. Our privacy policy outlines how we handle your data here.",
+            "This Agreement is entered into by Vizcom Inc. and the entity or person agreeing to these terms (the \"Customer,\" “You” or “Your”) and govern the Customer's access to and use of the Services.",
+            "This Agreement is effective when the Customer is presented with this Agreement and proceeds to use the Services (the \"Effective Date\") or to receive or distribute Assets. These terms may be updated and presented again to the Customer from time to time. Continued use of the Services constitutes acceptance of the updated terms. If You do not agree to this Agreement, please stop using the Services.",
+            "Other documents referenced here may also bind Customer’s use of the Services, including the Community Guidelines below."
+            ],
+            "automaticRenewal": "If you subscribe to a Premium Account (defined in Section 2) or other subscriptions we make available to you, then your subscription will be automatically renewed on a monthly, yearly, or any other basis depending on the subscription you select at Vizcom’s then-current subscription fee for the subscribed services unless you opt out of the auto-renewal in accordance with the subscription terms in Section 5 below.",
+            "importantInformation": [
+            "Section 16 of these Terms contains provisions governing how disputes that you and Vizcom have against each other will be resolved, including without limitation, any disputes that arose or were asserted prior to the effective date of the Agreement. Section 16 contains, among other things, an agreement to arbitrate which requires, with limited exceptions, that all disputes between you and Vizcom be resolved by binding and final arbitration. Unless you opt out of the agreement to arbitrate within thirty (30) days of the effective date of the Agreement:",
+            "(I) You and Vizcom will only be permitted to pursue disputes or claims and seek relief against the other party on an individual basis, not as a plaintiff or class member in any class or representative action or proceeding, and each of us waives our right to participate in a class action lawsuit or class-wide arbitration.",
+            "(II) You are waiving your right to pursue disputes or claims and seek relief in a court of law and to have a jury trial."
+            ],
+            "communicationsNotice": "Please be aware that Section 8 of the Agreement below contains your opt-in consent to receive communications from us, including via emails, text messages, calls, and push notifications.",
+            "changesToTheseTerms": "This Agreement is subject to change by Vizcom in its sole discretion at any time. We will post updated Terms on the Site and App and, for material changes, email registered users. Continued use after thirty (30) days constitutes acceptance.",
+            "sections": [
+            {
+                "section": 1,
+                "title": "How the Services Work",
+                "subsections": [
+                {
+                    "section": "1.1",
+                    "title": "Teams",
+                    "content": "Users may create shared, virtual workspaces on the App (“Teams”) and invite other users on the Apps to view and collaborate on content within the Team (“Collaborators”). Users may organize Designs by creating “Projects” and share Projects with Collaborators within their Teams."
+                },
+                {
+                    "section": "1.2",
+                    "title": "Premium Accounts",
+                    "content": "Certain features of the Service, such as additional drawing tools, unlimited image generations, ability to download high-res images, and unlimited Teams, are only available to Premium Accounts (defined below) for additional fees as described in Section 5."
+                },
+                {
+                    "section": "1.3",
+                    "title": "Beta Services",
+                    "content": "Vizcom may, from time to time, offer access to services that are classified as a trial or beta version (“Beta Services”). Access to and use of Beta Services may be subject to additional agreements. Vizcom makes no representations that Beta Services will ever be made generally available and reserves the right to discontinue or modify Beta Services at any time without notice. Beta Services are provided AS IS and WITH ALL FAULTS and may contain bugs, errors, or other defects. Your use of any Beta Services is at your sole risk."
+                }
+                ]
+            },
+            {
+                "section": 2,
+                "title": "Registration and Accounts",
+                "subsections": [
+                {
+                    "section": "2.1",
+                    "title": "Registration and Account Creation",
+                    "content": "You may need to register or create an account on the Services (“Account”) and provide certain information about yourself as prompted by the account registration form, including an email address and password. You agree to keep this information current and accurate. A Premium Account is subject to additional fees described in Section 5. Vizcom reserves the right to impose limitations on certain Accounts."
+                },
+                {
+                    "section": "2.2",
+                    "title": "Third-Party Service",
+                    "content": "If you access the Services through a third-party service (“TPS”), you may link your Account with a TPS. By granting access, you allow Vizcom to access, store, and display content from your TPS."
+                },
+                {
+                    "section": "2.3",
+                    "title": "Account Responsibilities",
+                    "content": "You are responsible for maintaining the confidentiality of your Account login information and for all activities under your Account. Notify Vizcom immediately of any unauthorized use."
+                }
+                ]
+            },
+            {
+                "section": 3,
+                "title": "Access to the Service",
+                "subsections": [
+                {
+                    "section": "3.1",
+                    "title": "Access and Use",
+                    "content": "Vizcom grants you a non-transferable, non-exclusive, revocable, limited right to access and use the Services for your personal or internal business use."
+                },
+                {
+                    "section": "3.2",
+                    "title": "Application License",
+                    "content": "Vizcom grants you a limited license to download, install, and use a copy of the desktop application on a reasonable number of computers you own or control."
+                },
+                {
+                    "section": "3.3",
+                    "title": "Certain Restrictions",
+                    "content": "You may not commercially exploit, reverse engineer, copy, or sublicense the Services, nor frame any Vizcom Content, except as expressly permitted."
+                },
+                {
+                    "section": "3.4",
+                    "title": "Modification and Suspension",
+                    "content": "Vizcom may modify, suspend, or discontinue the Services at any time without liability."
+                },
+                {
+                    "section": "3.5",
+                    "title": "No Support or Maintenance; Necessary Equipment",
+                    "content": "Vizcom has no obligation to provide support or maintenance. You are responsible for Internet fees and necessary hardware."
+                },
+                {
+                    "section": "3.6",
+                    "title": "Updates",
+                    "content": "Vizcom may require you to accept updates to the App. You may need to update third-party software to continue use."
+                }
+                ]
+            },
+            {
+                "section": 4,
+                "title": "Ownership",
+                "content": "All intellectual property rights in the Services and its content are owned by Vizcom or its suppliers. Except for the limited rights expressly granted, no rights are transferred to you."
+            },
+            {
+                "section": 5,
+                "title": "Subscription Terms",
+                "subsections": [
+                {
+                    "section": "5.1",
+                    "title": "Payment",
+                    "content": "You agree to pay all subscription and service fees (“Fees”). All Fees are non-refundable."
+                },
+                {
+                    "section": "5.2",
+                    "title": "Automatic Renewal",
+                    "content": "Subscriptions auto-renew unless canceled at least one (1) day before the renewal date via your Account page."
+                },
+                {
+                    "section": "5.3",
+                    "title": "Cancellation Period",
+                    "content": "EU/UK residents may cancel within 14 days of subscription for a full refund."
+                },
+                {
+                    "section": "5.4",
+                    "title": "Taxes",
+                    "content": "You are responsible for any Sales Tax Vizcom must collect."
+                },
+                {
+                    "section": "5.5",
+                    "title": "Payment Processor",
+                    "content": "Vizcom uses Stripe, Inc. By purchasing, you agree to Stripe’s Privacy Policy and Terms of Use."
+                },
+                {
+                    "section": "5.6",
+                    "title": "Free Trials and Other Promotions",
+                    "content": "Free trials expire at the end of the trial period unless you pay the applicable subscription fee."
+                }
+                ]
+            },
+            {
+                "section": 6,
+                "title": "User Content; Designs",
+                "subsections": [
+                {
+                    "section": "6.1",
+                    "title": "User Content",
+                    "content": "You are solely responsible for content you upload. You represent and warrant you have all rights to grant Vizcom a license."
+                },
+                {
+                    "section": "6.2",
+                    "title": "Designs",
+                    "content": "Free Accounts: Vizcom owns all rights to generated Designs. Premium Accounts: You own all rights to generated Designs."
+                },
+                {
+                    "section": "6.3",
+                    "title": "License",
+                    "content": "Free Accounts grant Vizcom a royalty-free license to use your Content and Designs. Premium Accounts retain full ownership."
+                },
+                {
+                    "section": "6.4",
+                    "title": "No Obligation to Pre-Screen Content",
+                    "content": "Vizcom has no obligation to pre-screen Content but may do so at its discretion."
+                },
+                {
+                    "section": "6.5",
+                    "title": "Enforcement",
+                    "content": "Vizcom may remove or refuse content that violates the Agreement."
+                },
+                {
+                    "section": "6.6",
+                    "title": "Feedback",
+                    "content": "Any feedback you provide is assigned to Vizcom and treated as non-confidential."
+                },
+                {
+                    "section": "6.7",
+                    "title": "Storage",
+                    "content": "Vizcom has no obligation to store your Content. You are responsible for backups."
+                }
+                ]
+            },
+            {
+                "section": 7,
+                "title": "Acceptable Use Policy",
+                "content": "You agree not to use the Services to infringe third-party rights, distribute malware or spam, abuse personal information, disrupt servers, or scrape data, among other prohibited activities."
+            },
+            {
+                "section": 8,
+                "title": "Vizcom Communications",
+                "subsections": [
+                {
+                    "section": "8.1",
+                    "title": "Generally",
+                    "content": "By providing your email, you consent to receiving operational communications from Vizcom."
+                },
+                {
+                    "section": "8.2",
+                    "title": "Promotional Email Communications",
+                    "content": "If you opt in, you may unsubscribe at any time; consent is not required to use the Services."
+                },
+                {
+                    "section": "8.3",
+                    "title": "Electronic Communications",
+                    "content": "Electronic communications satisfy any legal requirement for written notice."
+                }
+                ]
+            },
+            {
+                "section": 9,
+                "title": "Indemnification",
+                "content": "You agree to indemnify and hold harmless Vizcom and its agents from any third-party claim arising from your use of the Services or violation of this Agreement."
+            },
+            {
+                "section": 10,
+                "title": "Third-Party Links, Applications; Other Users and Third Parties",
+                "subsections": [
+                {
+                    "section": "10.1",
+                    "title": "Third-Party Links, Applications",
+                    "content": "Links to third-party sites are provided as a convenience; you use them at your own risk."
+                },
+                {
+                    "section": "10.2",
+                    "title": "Other Users and Third Parties",
+                    "content": "Vizcom is not responsible for interactions or content provided by other users."
+                }
+                ]
+            },
+            {
+                "section": 11,
+                "title": "Disclaimers",
+                "content": "The Services are provided “AS-IS” with all faults. Vizcom disclaims all warranties to the fullest extent permitted by law."
+            },
+            {
+                "section": 12,
+                "title": "Limitation on Liability",
+                "content": "Vizcom’s liability is limited to the greater of fees paid in the prior 12 months or $100. Neither party is liable for indirect or consequential damages."
+            },
+            {
+                "section": 13,
+                "title": "Term and Termination",
+                "content": "Vizcom may suspend or terminate your access at any time. Surviving provisions include Sections 1, 3.3–3.6, and 4–17."
+            },
+            {
+                "section": 14,
+                "title": "Copyright Policy",
+                "content": "Vizcom respects intellectual property and will remove infringing material upon proper notice under 17 U.S.C. § 512(c)."
+            },
+            {
+                "section": 15,
+                "title": "International Users and Provisions",
+                "subsections": [
+                {
+                    "section": "15.1",
+                    "title": "United Kingdom",
+                    "content": "No third-party rights under the Contracts (Rights of Third Parties) Act 1999."
+                },
+                {
+                    "section": "15.2",
+                    "title": "Germany",
+                    "content": "Limitation of liability for simple negligence except for injury or death."
+                }
+                ]
+            },
+            {
+                "section": 16,
+                "title": "Arbitration Clause and Class Action Waiver",
+                "content": "All disputes are subject to binding arbitration under JAMS, with limited exceptions. Includes waiver of jury trial and class actions, batch arbitration, and a 30-day opt-out right."
+            },
+            {
+                "section": 17,
+                "title": "General Provisions",
+                "subsections": [
+                {
+                    "section": "17.1",
+                    "title": "Independent Contractor; Assignment",
+                    "content": "You are an independent contractor. You may not assign this Agreement without Vizcom’s consent."
+                },
+                {
+                    "section": "17.2",
+                    "title": "Export",
+                    "content": "You agree to comply with U.S. export control laws."
+                },
+                {
+                    "section": "17.3",
+                    "title": "Exclusive Venue and Governing Law",
+                    "content": "Litigation permitted only in California courts; governed by California law."
+                },
+                {
+                    "section": "17.4",
+                    "title": "Disclosures",
+                    "content": "California residents may report complaints to the California Department of Consumer Affairs."
+                },
+                {
+                    "section": "17.5",
+                    "title": "Entire Agreement",
+                    "content": "This Agreement constitutes the entire agreement between you and Vizcom regarding the Services."
+                },
+                {
+                    "section": "17.6",
+                    "title": "Copyright/Trademark Information",
+                    "content": "© 2024 Vizcom. All trademarks are owned by Vizcom or third parties."
+                },
+                {
+                    "section": "17.7",
+                    "title": "Force Majeure",
+                    "content": "Vizcom is not liable for delays due to causes outside its control; obligations are suspended during force majeure."
+                },
+                {
+                    "section": "17.8",
+                    "title": "Choice of Language",
+                    "content": "The Agreement is drawn up in English."
+                },
+                {
+                    "section": "17.9",
+                    "title": "Contact Information",
+                    "content": {
+                    "address": "95 Third Street 2nd Floor - #7251 San Francisco, CA 94103",
+                    "telephone": "248-872-3378",
+                    "email": "hello@vizcom.ai"
+                    }
+                }
+                ]
+            }
+            ]
+        }
+    }
+}
