@@ -5,6 +5,7 @@ import os
 import discord
 from dotenv import load_dotenv
 from support import chatting
+from keep import keep_alive
 
 load_dotenv()
 
@@ -31,4 +32,5 @@ async def on_message(message):
     else:
         return
 
+keep_alive()
 client.run(os.getenv("DISCORD_TOKEN"))
