@@ -5,7 +5,7 @@ import os
 from threading import Thread
 from flask import Flask
 
-LOCAL = True
+LOCAL = False
 
 app = Flask("")
 
