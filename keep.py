@@ -14,7 +14,7 @@ def home():
     """
     home route
     """
-    return "I'm alive"
+    return "I'm alive", 200
 
 def run():
     """
