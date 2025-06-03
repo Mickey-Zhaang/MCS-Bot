@@ -32,7 +32,7 @@ def on_message_slack(body, say):
     if bot_id in full_text:
 
         # gets rid of the @ mention so chatting only sees user question
-        user_message = full_text.replace(f"<@!{discord_bot.user.id}>", "").strip()
+        user_message = full_text.replace(f"<@!{bot_id}>", "").strip()
 
         # takes the cleaned user input "user_message" and runs it through a LLM
         response = chatting(user_message)
@@ -63,7 +63,7 @@ async def on_ready():
     print("Starting Up!")
 
 @discord_bot.event
-async def on_message(message):
+async def on_message(message): # These function declarations must be kept the smae
     """
     [Discord]  
     

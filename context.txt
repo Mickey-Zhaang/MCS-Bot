@@ -1361,7 +1361,38 @@ context_data = {
                 "answer": "Our paid plans—Vizcom Professional, Organization, and Enterprise—include several advanced features:\n\n• Priority render queue: faster wait times when generating or exporting images.\n• 4K export: access to higher-quality export options.\n• Batch generation: unlock the ability to generate 4 images at a time instead of just one.\n• Enhanced collaboration: support for more Editors and Teams (limits vary by plan).\n• Full design privacy: Vizcom will not use your content to improve the service. Learn more about the differences here.\n\nLearn more about our pricing and view a detailed feature comparison here."
             }
             }
+        },
+
+        "page 31": {
+        "name": "How To Animate",
+        "reference link": "https://docs.vizcom.ai/how-to-animate",
+        "content": {
+            "description": "Vizcom's animation tool breathes life into your designs through a prompt-based input, allowing you to view your work in motion and from any describable perspective.",
+            "prerequisite": "Have one or more existing models or sketches created in Vizcom and visible in your workbench",
+            "steps": {
+                "step 1": {
+                "name": "Access Animate Mode",
+                "instructions": "If in edit mode, navigate to the workbench by clicking the workbench button on teh toolbar."
+                },
+                "step 2": {
+                    "name": "Open Animate Feature",
+                    "instructions": "Click the '+' icon and select the Animate feature from the work benchtoolbar. A prompt window labeled animation should appear"
+                },
+                "step 3": {
+                    "name": "Connect Your Design",
+                    "instructions": "Connect the animation prompt window to the desired design through the side arrows on the window."
+                },
+                "step 4": {
+                    "name": "Write and Run Prompt",
+                    "instructions": "Write your prompt in the window and click 'Animate!'."
+                },
+                "step 5": {
+                    "name": "Select Animation Mode",
+                    "instructions": "Choose between Turbo Mode (~30 sec) for speed or Standard Mode (~5 min) for better prompt adherence."
+                }
+            }
         }
+        },
     },
 
     "overview": {
