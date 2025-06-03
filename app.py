@@ -63,7 +63,7 @@ async def on_ready():
     print("Starting Up!")
 
 @discord_bot.event
-async def on_message_discord(message):
+async def on_message(message):
     """
     [Discord]  
     
