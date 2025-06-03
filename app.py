@@ -60,7 +60,7 @@ async def on_ready():
     For debugging purposes  
     Is called once after the bot sucessfully logs in
     """
-    pass
+    print("Starting Up!")
 
 @discord_bot.event
 async def on_message_discord(message):
