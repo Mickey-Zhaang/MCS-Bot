@@ -1,5 +1,5 @@
 """
-keep.py
+initializes a bot heartbeat (Flask App)
 """
 import os
 from threading import Thread
@@ -18,17 +18,18 @@ def home():
 
 def run():
     """
-    run
+    runs the heartbeat on a Port (Flask App)
     """
     if LOCAL:
         app.run(host="127.0.0.1", port=5000)
     else:
+        # look for PORT from the hosting environment (Heroku)
         port = int(os.environ.get("PORT", 5000))
         app.run(host="0.0.0.0", port=port)
 
 def keep_alive():
     """
-    Keeps our bot alive
+    Starts the heartbeat on a seperate thread
     """
     t = Thread(target=run)
     t.start()

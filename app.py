@@ -17,25 +17,34 @@ load_dotenv()
 slack_bot = App(token=os.environ["SLACK_BOT_TOKEN"])
 
 @slack_bot.event("app_mention")
-def handle_app_mention_events(body, say):
+def on_message_slack(body, say):
     """
-    [Slack] respond to @mention, forward to `chatting(...)`
+    [Slack]
+    
+    When the bot is mentioned, strip off the mention tag and pass
+    the clean text to `chatting(...)`, then reply with its response.
     """
+
     event = body["event"]
     full_text = event["text"]
     bot_id = body["authorizations"][0]["user_id"]
-    if full_text.startswith(f"<@{bot_id}>"):
-        user_message = full_text.split(">", 1)[1].strip()
-    else:
-        user_message = full_text
 
-    response = chatting(user_message)
-    say(response)
+    if bot_id in full_text:
+
+        # gets rid of the @ mention so chatting only sees user question
+        user_message = full_text.replace(f"<@!{discord_bot.user.id}>", "").strip()
+
+        # takes the cleaned user input "user_message" and runs it through a LLM
+        response = chatting(user_message)
+
+        # the bot returns the response from the LLM
+        say(response)
 
 def start_slack_socket_mode():
     """
     [Slack] this must run in the main thread (so signal handlers can be registered).
     """
+    # Check documentation for Slack's Socket Mode -- https://api.slack.com/apis/socket-mode
     handler = SocketModeHandler(slack_bot, os.environ["SLACK_APP_TOKEN"])
     handler.start()
 
@@ -46,14 +55,19 @@ discord_bot = discord.Client(intents=intents)
 @discord_bot.event
 async def on_ready():
     """
-    [Discord] on_ready
+    [Discord]  
+    
+    For debugging purposes  
+    Is called once after the bot sucessfully logs in
     """
-    print(f"[Discord] Logged in as {discord_bot.user}")
+    pass
 
 @discord_bot.event
-async def on_message(message):
+async def on_message_discord(message):
     """
-    [Discord] if bot is mentioned, forward to `chatting(...)`
+    [Discord]  
+    
+    When the bot is mentioned,
     """
     if discord_bot.user in message.mentions:
         content = message.content.replace(f"<@!{discord_bot.user.id}>", "").strip()
@@ -65,6 +79,7 @@ def start_discord_bot():
     [Discord] create a fresh asyncio loop inside this thread,
     then run `discord_bot.start()` on it.
     """
+    # sets up a new event loop
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     loop.run_until_complete(discord_bot.start(os.getenv("DISCORD_TOKEN")))
